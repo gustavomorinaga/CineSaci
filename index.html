@@ -70,29 +70,36 @@
 			<aside class="top-movies"></aside>
 		</main>
 		<footer>
-			<section class="map-website">
-				<h6>Mapa do Site</h6>
-				<ul>
-					<li>Home</li>
-					<li>Comédia</li>
-					<li>Drama</li>
-					<li>Ação</li>
-				</ul>
-				<ul>
-					<li>Quem Somos</li>
-					<li>Contato</li>
-					<li>Normas</li>
-				</ul>
-      </section>
-      <section class="newsletter-register">
-        <h6>Inscreva-se para receber notícias</h6>
-        <form action="#">
-          <label for="email">
-            <input type="email" name="email" id="email" />
-          </label>
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
+			<div class="container">
+				<div class="row">
+					<section class="map-website col">
+            <h6>Mapa do Site</h6>
+            <div class="row">
+              <ul class="col">
+                <li>Home</li>
+                <li>Comédia</li>
+                <li>Drama</li>
+                <li>Ação</li>
+              </ul>
+              <ul class="col">
+                <li>Quem Somos</li>
+                <li>Contato</li>
+                <li>Normas</li>
+              </ul>
+            </div>
+					</section>
+				
+					<section class="newsletter-register col">
+						<h6>Inscreva-se para receber notícias</h6>
+						<form action="#">
+						<label for="email">
+							<input type="email" name="email" id="email" />
+						</label>
+						<button type="submit">Enviar</button>
+						</form>
+	  				</section>
+          </div>
+			</div>  
 		</footer>
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
