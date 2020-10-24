@@ -18,12 +18,18 @@ section.main-banner {
 }
 
 header nav {
-  height: 7vh;
-
-  padding: 0 5vw !important;
+  padding: 1vh 5vw !important;
 }
 
-header nav.bg-primary {
+header nav img.logo {
+  max-width: 168px;
+}
+
+header .navbar {
+  z-index: 10 !important;
+}
+
+header nav.bg-dark {
   background: #1E1E1E !important;
 }
 
