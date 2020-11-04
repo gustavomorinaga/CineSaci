@@ -18,7 +18,7 @@ body {
 section.main-banner {
 	height: 75vh;
 	position: relative;
-	background-image: url('/images/banner.png');
+	background-image: url('../images/banner.png');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -156,6 +156,7 @@ main .container .tab-content {
 main .soon-content {
 	background: #6ea62f;
 	width: 100%;
+	height: 100%;
 }
 
 main .movie-content {
@@ -184,7 +185,7 @@ main p.movie-description {
 	align-items: center;
 	justify-content: space-between;
 
-	width: 50%;
+	width: 100%;
 }
 
 main .soon-content .row {
