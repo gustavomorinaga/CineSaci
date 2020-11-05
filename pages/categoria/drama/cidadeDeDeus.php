@@ -1,6 +1,6 @@
 <?php
 include_once "../../../components/Navbar/index.php";
-echo Navbar("../../../");
+echo Navbar("../../../", "Cidade de Deus");
 ?>
 
 <script>
@@ -52,12 +52,12 @@ echo Navbar("../../../");
 				<p><strong>Diretor: </strong> Fernando Meirelles </p>
 
 			</div>
-			
+
 			<?php
-				include_once "../../../components/EmBreve/index.php";
-				echo EmBreve();
+			include_once "../../../components/EmBreve/index.php";
+			echo EmBreve();
 			?>
-			
+
 		</div>
 
 </main>

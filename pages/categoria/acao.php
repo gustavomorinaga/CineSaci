@@ -1,6 +1,6 @@
 <?php
 include_once "../../components/Navbar/index.php";
-echo Navbar("../../");
+echo Navbar("../../", "Ação");
 ?>
 
 <script>
@@ -12,8 +12,8 @@ echo Navbar("../../");
 	<div class="container">
 		<h1>Ação</h1>
 		<?php
-			include_once "../../components/Noticias/index.php";
-			echo Noticias();
+		include_once "../../components/Noticias/index.php";
+		echo Noticias();
 		?>
 	</div>
 

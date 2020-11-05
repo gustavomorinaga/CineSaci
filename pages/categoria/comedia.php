@@ -1,6 +1,6 @@
 <?php
 include_once "../../components/Navbar/index.php";
-echo Navbar("../../");
+echo Navbar("../../", "Comédia");
 ?>
 
 <script>

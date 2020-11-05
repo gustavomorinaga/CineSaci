@@ -1,6 +1,6 @@
 <?php
 include_once "./components/Navbar/index.php";
-echo Navbar("./");
+echo Navbar("./", "Home");
 ?>
 
 <script>
@@ -69,10 +69,10 @@ echo Navbar("./");
 			</div>
 
 			<?php
-				include_once "./components/EmBreve/index.php";
-				echo EmBreve();
+			include_once "./components/EmBreve/index.php";
+			echo EmBreve();
 			?>
-			
+
 		</div>
 		<div class="row trailers-content">
 			<div class="col-sm-12">
@@ -83,49 +83,28 @@ echo Navbar("./");
 					</div>
 
 					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4">
-								<img src="https://hyperflix.vercel.app/static/media/Logo.632cc64b.png" alt="" />
-							</div>
-							<div class="col-sm-8">
-								<h3>Filme</h3>
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
-									accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
-									error harum delectus, culpa quis!</p>
-							</div>
-						</div>
 
-						<div class="row">
-							<div class="col-sm-4">
-								<img src="https://hyperflix.vercel.app/static/media/Logo.632cc64b.png" alt="" />
-							</div>
-							<div class="col-sm-8">
-								<h3>Filme</h3>
-								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cupiditate beatae totam sunt
-									doloribus debitis voluptatibus praesentium natus nam nisi eligendi, aliquid deleniti doloremque
-									adipisci quasi quam itaque veniam voluptatum.</p>
-							</div>
-						</div>
+						<?php
+							include_once "./components/TrailerItem/index.php";
+							echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
+							error harum delectus, culpa quis!");
+							echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
+							error harum delectus, culpa quis!");
+							echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
+							error harum delectus, culpa quis!");
+						?>
 
-						<div class="row">
-							<div class="col-sm-4">
-								<img src="https://hyperflix.vercel.app/static/media/Logo.632cc64b.png" alt="" />
-							</div>
-							<div class="col-sm-8">
-								<h3>Filme</h3>
-								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cupiditate beatae totam sunt
-									doloribus debitis voluptatibus praesentium natus nam nisi eligendi, aliquid deleniti doloremque
-									adipisci quasi quam itaque veniam voluptatum.</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<?php
-			include_once "./components/Noticias/index.php";
-			echo Noticias();
+		include_once "./components/Noticias/index.php";
+		echo Noticias();
 		?>
 	</div>
 

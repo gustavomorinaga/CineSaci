@@ -1,6 +1,8 @@
 <?php
 
-function Navbar($path) {
+function Navbar(string $path, string $titlePage): String {
+  $logo = "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png";
+
   return "
     <!DOCTYPE html>
     <html lang='pt-br'>
@@ -11,14 +13,14 @@ function Navbar($path) {
       <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css'
         integrity='sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2' crossorigin='anonymous' />
       <link rel='stylesheet' href='${path}styles/custom.css' />
-      <title>Home – Cine Saci</title>
+      <title>${titlePage} – Cine Saci</title>
     </head>
     
     <body>
       <header>
         <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
           <a class='navbar-brand' href='${path}index.php'>
-            <img class='logo' src='https://hyperflix.vercel.app/static/media/Logo.632cc64b.png' alt='Logo do Cine Saci' />
+            <img class='logo' src='${logo}' alt='Logo do Cine Saci' />
           </a>
           <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#collapsibleNavId'
             aria-controls='collapsibleNavId' aria-expanded='false' aria-label='Toggle navigation'>
