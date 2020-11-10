@@ -88,6 +88,48 @@ main .main-content {
 	margin-top: -15rem !important;
 }
 
+main .main-content .nav-pills {
+	position: absolute;
+	top: -54px;
+
+	z-index: 30;
+
+	margin-left: -15px;
+}
+
+main .main-content .nav-pills .nav-item .nav-link {
+	position: relative;
+
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 700;
+
+	background: #1e1e1e;
+	border-color: #1e1e1e;
+
+	border-radius: 0;
+
+	padding: 1.1rem 3rem;
+	margin-right: 0.2rem;
+}
+
+main .main-content .nav-pills .nav-item .nav-link.active {
+	background: #6ea62f;
+	border-color: #6ea62f;
+}
+
+main .main-content .nav-pills .nav-item .nav-link.active::after {
+	content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: #6ea62f transparent transparent transparent;
+}
+
 main .news {
 	border-right: solid 1px #000;
 }
@@ -151,12 +193,15 @@ main .container .tab-content {
 	background: #1e1e1e;
 
 	color: #aeaeae;
+
+	padding-top: 1rem;
 }
 
 main .soon-content {
 	background: #6ea62f;
 	width: 100%;
 	height: 100%;
+	margin-top: -3.8rem;
 }
 
 main .movie-content {
@@ -357,4 +402,13 @@ footer ul li {
 
 footer ul li {
 	margin: 1.2rem 0;
+}
+
+footer ul li a {
+	color: #FFF;
+}
+
+footer ul li a:hover {
+	text-decoration: none;
+	color: #FFF;
 }
