@@ -22,7 +22,9 @@ function AbasItem(string $img, string $alt, string $data, string $descricao): St
   return "
     <div class='col-sm-4'>
       <div class='card'>
-        <img src='${img}' alt='${alt}' />
+        <figure class='figure'>
+          <img src='${img}' alt='${alt}' class='figure-img img-fluid' />
+        </figure>
         <div class='news-description'>
           <div class='new'>Novo</div>
           <caption>

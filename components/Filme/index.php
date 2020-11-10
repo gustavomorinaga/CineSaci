@@ -25,7 +25,7 @@ function Filme(string $categoria, string $titulo, string $data, string $autor, s
           </p>
 
           <hr>
-          <p><strong>Lançamento: </strong>${data}</p>
+          <p><strong>Lançamento: </strong>${lancamento}</p>
           <p><strong>Plataforma: </strong>${plataforma}</p>
           <p><strong>Diretor: </strong>${diretor}</p>
 

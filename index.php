@@ -73,7 +73,7 @@ echo Navbar("./", "Home");
 
 			<?php
 			include_once "./components/EmBreve/index.php";
-			echo EmBreve();
+			echo EmBreve("-3.8rem");
 			?>
 
 		</div>

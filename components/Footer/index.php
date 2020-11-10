@@ -26,7 +26,7 @@ function Footer(string $path): String {
 
           <section class='newsletter-register col-sm-5'>
             <h6>Inscreva-se para receber notícias</h6>
-            <form action='#'>
+            <form action='#' method='post'>
               <label for='email'>
                 <input type='email' name='email' id='email' placeholder='E-Mail' />
               </label>

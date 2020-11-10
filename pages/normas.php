@@ -17,44 +17,232 @@ echo Navbar("../", "Normas");
 			</div>
 		</div>
 		<div class="row content">
-			<div class="col-sm-12">
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet modi ratione a temporibus provident aspernatur, totam voluptas hic iure vel molestias dolore pariatur veniam incidunt dolorem repellendus minima quaerat eveniet.
-					Saepe architecto quae porro, placeat odio nam? Quibusdam fugiat dolorum, pariatur temporibus facere qui incidunt explicabo sequi ex aliquam repudiandae sapiente provident veniam nam vero aut ratione. Incidunt, officiis magni!
-					Minus, rerum. Ea, cumque magnam pariatur animi autem magni illo voluptatibus quod totam quis, natus neque. Tempora exercitationem nam optio porro, aliquid cum, mollitia magnam voluptates dolorem, dolores veritatis iste?
-					Similique autem deleniti officiis sed! Est laboriosam nobis accusantium amet molestias nihil explicabo fugit doloribus soluta debitis eum enim harum labore expedita cumque, veritatis odit. Consequatur, ab. In, ullam. Asperiores.
-					Suscipit, natus blanditiis! Omnis laboriosam sit in eum illo, fugit, excepturi iusto nihil iste vitae totam repellendus saepe nulla ullam suscipit voluptates reiciendis voluptatum! Possimus quibusdam assumenda ex officiis fuga?
-					Laborum porro molestias corporis accusantium, nulla non nostrum praesentium minus atque labore fugit cumque dolorem inventore temporibus et reiciendis optio asperiores quisquam accusamus eligendi! Odit ducimus dolorum modi sunt eaque?
-					Eius vitae nam repellat sapiente suscipit quas quos dolore quisquam maxime distinctio ducimus eum culpa illo vero rerum provident unde minima nulla tenetur voluptatum, quod aspernatur! Facilis vel iste fuga.
-					Officia facilis maxime, amet praesentium delectus soluta tempora beatae veniam nesciunt reiciendis fugiat voluptates excepturi placeat maiores. Molestias, expedita. Laborum delectus omnis doloribus mollitia accusamus consequuntur? Consequatur laboriosam dolore numquam.
-					Laborum perferendis modi delectus eius sed, qui voluptatem nulla mollitia sint provident dolores? Quis modi veniam cum aliquid temporibus, officiis iusto corrupti hic id sint mollitia libero doloremque, provident praesentium.
-					Ipsa culpa accusamus, exercitationem expedita doloremque inventore fuga enim, omnis cupiditate excepturi at similique iste nesciunt accusantium dolorum eligendi mollitia sunt. Exercitationem nobis sit laboriosam consequatur, laudantium ab! Aspernatur, reprehenderit.
-					Saepe fuga optio quibusdam ex maxime nulla eligendi at obcaecati odit debitis nihil sequi ratione ab unde neque consequatur cumque, et non nesciunt iure maiores. Molestiae non voluptatem dignissimos fugiat!
-					Deleniti officiis ea optio fugiat quo eveniet! Quasi id dolores ex iusto voluptatem ipsum in explicabo dolore veritatis quis at, quidem labore fugit repudiandae! Fuga nobis ex repudiandae impedit nihil!
-					Quam mollitia aliquid est a molestias esse quis qui recusandae rerum! Quisquam, ab doloremque! Sint aspernatur molestiae consequatur. Magni voluptate sed provident veniam corporis nostrum maiores ipsa eligendi ad aperiam?
-					Quasi repellat voluptatibus alias inventore excepturi. Hic laboriosam nam, excepturi ipsam, animi vero molestiae at architecto odit, inventore adipisci natus aliquam alias? Sit, ex facilis ea obcaecati aliquid itaque odio?
-					Hic similique, qui fuga temporibus laudantium nisi sunt voluptatibus mollitia dicta maxime sequi alias atque assumenda sit ab adipisci molestias officiis dolore possimus iure quasi ratione libero quod. Autem, dicta.
-					Consectetur, quia. Aperiam quo incidunt delectus doloribus est tempora iure, assumenda dolor, libero, saepe numquam at fuga mollitia voluptate autem magni omnis eveniet temporibus! Obcaecati est commodi magni possimus repellendus?
-					Quae quis id culpa est placeat natus, nesciunt vitae officia minima. Temporibus nisi excepturi dolor dolores ratione rem. Nulla ullam eligendi similique repudiandae earum perspiciatis maxime id neque hic illum.
-					Blanditiis ipsum ullam iusto eum, ad nostrum commodi tempora amet numquam ut nihil. Aut, veniam? Harum dolore necessitatibus possimus eveniet at perspiciatis, fuga tempora aspernatur itaque modi iusto aperiam beatae.
-					Incidunt repudiandae corrupti vitae, eos, laborum deserunt, doloribus sunt ut distinctio quod reprehenderit. Voluptatum vel esse magnam iure, laudantium rem cum libero quo laboriosam ea consectetur voluptatibus corrupti adipisci reiciendis?
-					Cumque totam in maiores aut mollitia minima et iste ducimus voluptas vero adipisci maxime, ipsum, tempore tenetur non! Ut deserunt quasi fugit sed. Doloremque, consequatur? Incidunt facilis eum doloremque reiciendis.
-					Esse adipisci commodi doloremque voluptatum totam voluptatem voluptatibus, omnis sint quibusdam temporibus! Quidem, quisquam soluta. Optio dolor nesciunt eos quae aut harum, corporis obcaecati quod dolore id non eum totam.
-					Repellendus corporis excepturi fugiat maiores recusandae temporibus dolorem sapiente eligendi commodi quae molestiae laborum, obcaecati ipsum qui! Mollitia adipisci doloribus eligendi possimus aliquam deleniti modi aut. Quos inventore quisquam maiores.
-					Debitis maiores porro eum quasi, omnis deserunt, culpa quidem inventore et mollitia ad! Dignissimos nobis placeat itaque repudiandae sit quisquam dolorum, magnam amet neque? Autem doloremque dolore aperiam provident sit.
-					Suscipit illum omnis quas quasi libero nisi. Obcaecati delectus asperiores fugit sed possimus hic itaque soluta esse consequatur aliquam autem odio praesentium velit modi dolore ipsam suscipit, totam qui est!
-					Ea minima earum blanditiis? Officiis, praesentium commodi odio unde facilis deleniti in dolorem quae voluptate natus nesciunt a illum sit eaque aliquid! Maiores corrupti possimus ea voluptatem, ipsam quasi? Ipsum.
-					Cumque inventore itaque, neque eius sit vitae eveniet eaque laboriosam explicabo reiciendis expedita aliquid nam labore voluptates corrupti voluptatum error atque in necessitatibus impedit. At vero odit praesentium aspernatur fugiat.
-					Eaque eum, soluta veritatis sunt earum placeat perspiciatis nisi veniam praesentium explicabo natus laudantium, dolore, in aut vitae modi numquam. Minus explicabo amet aut eligendi obcaecati architecto libero quibusdam illum.
-					Iusto, iste magnam, harum quo ducimus perspiciatis quisquam dolorem dolores voluptatibus mollitia voluptatem eligendi id autem! Doloremque, id porro architecto cum unde nobis expedita iste facilis consequuntur et temporibus quisquam?
-					Accusamus, deserunt illum. Laudantium dolorum nesciunt at labore sit aspernatur reprehenderit accusamus rem sapiente. Error temporibus a nesciunt, iusto sint aliquam dolores consectetur at tempore, libero dolorum praesentium totam non.
-					Dolores consectetur ut adipisci quisquam? Sint eveniet porro itaque beatae numquam a temporibus error quo, magni doloremque enim iusto et aut ipsam illo ducimus doloribus repellendus odio iure placeat eos.
-				</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="nav nav-pills " id="faq-tabs" role="tablist" aria-orientation="vertical">
+							<a href="#tab1" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab1" aria-selected="true">
+								<i class="mdi mdi-help-circle"></i> Frequently Asked Questions
+							</a>
+							<a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2" aria-selected="false">
+								<i class="mdi mdi-account"></i> Profile
+							</a>
+							<a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3" aria-selected="false">
+								<i class="mdi mdi-account-settings"></i> Account
+							</a>             	
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="tab-content" id="faq-tab-content">
+							<div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+								<div class="accordion" id="accordion-tab-1">
+									<div class="card">
+										<div class="card-header" id="accordion-tab-1-heading-1">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-1" aria-expanded="false" aria-controls="accordion-tab-1-content-1">Just once I'd like to eat dinner with a celebrity?</button>
+											</h5>
+										</div>
+										<div class="collapse show" id="accordion-tab-1-content-1" aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
+											<div class="card-body">
+												<p>Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. I was having the most wonderful dream. Except you were there, and you were there, and you were there! No argument here. Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be.</p>
+												<p><strong>Example: </strong>Shut up and get to the point!</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-1-heading-2">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-2" aria-expanded="false" aria-controls="accordion-tab-1-content-2">Bender, I didn't know you liked cooking?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-1-content-2" aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
+											<div class="card-body">
+												<p>That's so cute. Can we have Bender Burgers again? Is the Space Pope reptilian!? I wish! It's a nickel. Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually!</p>
+												<p><strong>Example: </strong>Okay, I like a challenge. Is that a cooking show? No argument here.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-1-heading-3">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-3" aria-expanded="false" aria-controls="accordion-tab-1-content-3">My fellow Earthicans?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-1-content-3" aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
+											<div class="card-body">
+												<p>As I have explained in my book 'Earth in the Balance', and the much more popular 'Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Fry, you can't just sit here in the dark listening to classical music.</p>
+												<p><strong>Example: </strong>Actually, that's still true. Well, let's just dump it in the sewer and say we delivered it.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-1-heading-4">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-4" aria-expanded="false" aria-controls="accordion-tab-1-content-4">Who am I making this out to?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-1-content-4" aria-labelledby="accordion-tab-1-heading-4" data-parent="#accordion-tab-1">
+											<div class="card-body">
+												<p>Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat. Also Zoidberg. Can we have Bender Burgers again? Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords.</p>
+												<p><strong>Example: </strong>Cruel though they may be...</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab2" role="tabpanel" aria-labelledby="tab2">
+								<div class="accordion" id="accordion-tab-2">
+									<div class="card">
+										<div class="card-header" id="accordion-tab-2-heading-1">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-1" aria-expanded="false" aria-controls="accordion-tab-2-content-1">Does anybody else feel jealous and aroused and worried?</button>
+											</h5>
+										</div>
+										<div class="collapse show" id="accordion-tab-2-content-1" aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
+											<div class="card-body">
+												<p>Kif, I have mated with a woman. Inform the men. This is the worst part. The calm before the battle. Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.</p>
+												<p><strong>Example: </strong>There's no part of that sentence I didn't like! You, a bobsleder!? That I'd like to see!</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-2-heading-2">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-2" aria-expanded="false" aria-controls="accordion-tab-2-content-2">This opera's as lousy as it is brilliant?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-2-content-2" aria-labelledby="accordion-tab-2-heading-2" data-parent="#accordion-tab-2">
+											<div class="card-body">
+												<p>Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry! It's okay, Bender. I like cooking too. Interesting. No, wait, the other thing: tedious.</p>
+												<p><strong>Example: </strong>Of all the friends I've had… you're the first. But I know you in the future. I cleaned your poop. Then we'll go with that data file!</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-2-heading-3">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Who are you, my warranty?!</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-2-content-3" aria-labelledby="accordion-tab-2-heading-3" data-parent="#accordion-tab-2">
+											<div class="card-body">
+												<p>Oh, I think we should just stay friends. I'll tell them you went down prying the wedding ring off his cold, dead finger. Aww, it's true. I've been hiding it for so long. Say it in Russian! Then throw her in the laundry room, which will hereafter be referred to as "the brig".</p>
+												<p><strong>Example: </strong> We're rescuing ya. Robot 1-X, save my friends! And Zoidberg! <em>Then we'll go with that data file!</em> Okay, I like a challenge.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-2-heading-4">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-4" aria-expanded="false" aria-controls="accordion-tab-2-content-4">I haven't felt much of anything since my guinea pig died?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-2-content-4" aria-labelledby="accordion-tab-2-heading-4" data-parent="#accordion-tab-2">
+											<div class="card-body">
+												<p>And I'm his friend Jesus. Oh right. I forgot about the battle. OK, if everyone's finished being stupid. We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day.</p>
+												<p><strong>Example: </strong> Isn't it true that you have been paid for your testimony? Quite possible.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">
+								<div class="accordion" id="accordion-tab-3">
+									<div class="card">
+										<div class="card-header" id="accordion-tab-3-heading-1">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-1" aria-expanded="false" aria-controls="accordion-tab-3-content-1">Michelle, I don't regret this, but I both rue and lament it?</button>
+											</h5>
+										</div>
+										<div class="collapse show" id="accordion-tab-3-content-1" aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
+											<div class="card-body">
+												<p>Look, last night was a mistake. We'll need to have a look inside you with this camera. Good news, everyone! There's a report on TV with some very bad news! You know, I was God once. You lived before you met me?!</p>
+												<p><strong>Example: </strong>I'm Santa Claus! Pansy. That's a popular name today. Little "e", big "B"?</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-3-heading-2">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-2" aria-expanded="false" aria-controls="accordion-tab-3-content-2">Why am I sticky and naked?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-3-content-2" aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
+											<div class="card-body">
+												<p>Did I miss something fun? Humans dating robots is sick. You people wonder why I'm still single? It's 'cause all the fine robot sisters are dating humans! Kids don't turn rotten just from watching TV.</p>
+												<p><strong>Example: </strong>I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-3-heading-3">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-3" aria-expanded="false" aria-controls="accordion-tab-3-content-3">Is that a cooking show?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-3-content-3" aria-labelledby="accordion-tab-3-heading-3" data-parent="#accordion-tab-3">
+											<div class="card-body">
+												<p>OK, this has gotta stop. I'm going to remind Fry of his humanity the way only a woman can. You seem malnourished. Are you suffering from intestinal parasites? Check it out, y'all. Everyone who was invited is here. I am Singing Wind, Chief of the Martians.</p>
+												<p><strong>Example: </strong>Man, I'm sore all over. I feel like I just went ten rounds with mighty Thor.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="accordion-tab-3-heading-4">
+											<h5>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-4" aria-expanded="false" aria-controls="accordion-tab-3-content-4">You are the last hope of the universe?</button>
+											</h5>
+										</div>
+										<div class="collapse" id="accordion-tab-3-content-4" aria-labelledby="accordion-tab-3-heading-4" data-parent="#accordion-tab-3">
+											<div class="card-body">
+												<p>I don't want to be rescued. I videotape every customer that comes in here, so that I may blackmail them later. Ah, computer dating. It's like pimping, but you rarely have to use the phrase "upside your head."</p>
+												<p><strong>Example: </strong>Tell them I hate them.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 </main>
+<footer>
+	<div class="container">
+		<div class="row">
+			<section class="map-website col-sm-7">
+				<h6>Mapa do Site</h6>
+				<div class="row">
+					<ul class="col-sm-3">
+						<li>Home</li>
+						<li>Comédia</li>
+						<li>Drama</li>
+						<li>Ação</li>
+					</ul>
+					<ul class="col-sm-3">
+						<li>Quem Somos</li>
+						<li>Contato</li>
+						<li>Normas</li>
+					</ul>
+				</div>
+			</section>
 
-<?php
-include_once "../components/Footer/index.php";
-echo Footer("../");
-?>
+			<section class="newsletter-register col-sm-5">
+				<h6>Inscreva-se para receber notícias</h6>
+				<form action="#">
+					<label for="email">
+						<input type="email" name="email" id="email" placeholder="E-Mail" />
+					</label>
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+		</div>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>

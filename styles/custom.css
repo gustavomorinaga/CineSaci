@@ -63,8 +63,8 @@ main {
 }
 
 main .container {
-  margin: auto auto 1rem !important;
-  padding: 0 !important;
+	margin: auto auto 1rem !important;
+	padding: 0 !important;
 }
 
 main .container h1 {
@@ -88,9 +88,18 @@ main .main-content {
 	margin-top: -15rem !important;
 }
 
+main .main-content figure {
+	margin: 0;
+}
+
+main .main-content figure img{
+	width: 100%;
+	height: 180px;
+}
+
 main .main-content .nav-pills {
 	position: absolute;
-	top: -54px;
+	top: -55px;
 
 	z-index: 30;
 
@@ -100,7 +109,7 @@ main .main-content .nav-pills {
 main .main-content .nav-pills .nav-item .nav-link {
 	position: relative;
 
-	color: #FFF;
+	color: #fff;
 	text-transform: uppercase;
 	font-size: 2rem;
 	font-weight: 700;
@@ -120,14 +129,14 @@ main .main-content .nav-pills .nav-item .nav-link.active {
 }
 
 main .main-content .nav-pills .nav-item .nav-link.active::after {
-	content: " ";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 7px;
-  border-style: solid;
-  border-color: #6ea62f transparent transparent transparent;
+	content: ' ';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 7px;
+	border-style: solid;
+	border-color: #6ea62f transparent transparent transparent;
 }
 
 main .news {
@@ -149,7 +158,7 @@ main .news h2 {
 
 	margin-bottom: 1.6rem;
 	padding: 0 2rem !important;
-	
+
 	width: 30% !important;
 	height: 3rem !important;
 }
@@ -201,11 +210,10 @@ main .soon-content {
 	background: #6ea62f;
 	width: 100%;
 	height: 100%;
-	margin-top: -3.8rem;
 }
 
 main .movie-content {
-  background: #fff;
+	background: #fff;
 }
 
 main .movie-content h2,
@@ -247,19 +255,19 @@ main .soon-content .row h3 {
 main .soon-content h2,
 main .soon-content p,
 main .soon-content .more h3 {
-	color: #FFF;
+	color: #fff;
 }
 
 main .soon-content h2,
 main .soon-content h3 {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 
 main .soon-content h2,
 main .soon-content .more h3 {
-  text-align: center;
+	text-align: center;
 }
 
 main .soon-content .row .soon {
@@ -299,6 +307,57 @@ main .contact-content .form-check label {
 	font-weight: 500;
 }
 
+main .about-content .nav {
+	display: flex;
+	flex-direction: column;
+}
+
+main .about-content .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #6ea62f;
+	border-radius: 0;
+}
+
+main .about-content .nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #1e1e1e;
+	border-radius: 0;
+}
+
+main .about-content .btn-link {
+	color: #000000;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: large;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+main .about-content .nav .nav-pills a {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #1e1e1e;
+}
+
+main .about-content .container .tab-content {
+	background: #fff;
+	color: #000;
+}
+
+main .about-content .card-header .btn-link:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+main .about-content .card-header {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: initial;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 /* FOOTER */
 
 footer {
@@ -316,7 +375,7 @@ footer form {
 	width: 100%;
 }
 
-form button[type=submit] {
+form button[type='submit'] {
 	font: 700 1rem Roboto !important;
 	text-transform: uppercase !important;
 	color: #fff !important;
@@ -336,8 +395,8 @@ footer form label {
 	width: 75%;
 }
 
-form input[type=text],
-form input[type=email],
+form input[type='text'],
+form input[type='email'],
 form textarea,
 form select {
 	border: none !important;
@@ -349,11 +408,11 @@ form select {
 	width: 100% !important;
 }
 
-form input[type=email] {
+form input[type='email'] {
 	height: 2rem !important;
 }
 
-form input[type=checkbox] {
+form input[type='checkbox'] {
 	width: 2rem !important;
 	height: 2rem !important;
 
@@ -405,10 +464,10 @@ footer ul li {
 }
 
 footer ul li a {
-	color: #FFF;
+	color: #fff;
 }
 
 footer ul li a:hover {
 	text-decoration: none;
-	color: #FFF;
+	color: #fff;
 }

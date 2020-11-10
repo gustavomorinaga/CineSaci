@@ -1,8 +1,8 @@
 <?php
 
-function EmBreve(): String {
+function EmBreve(string $margin = "0rem"): String {
   return "
-    <div class='col-sm-3 soon-content'>
+    <div class='col-sm-3 soon-content' style='margin-top: ${margin};'>
       <h2>Em breve</h2>
       " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de janeiro de 2077') . "
       " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de fevereiro de 2077') . "
