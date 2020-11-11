@@ -4,8 +4,8 @@ function Aluno(string $img, string $alt, string $nome, string $cargo, string $ra
   return "
     <div class='row content'>
 
-      <div class='col-sm-5'>
-        <img class='logo' src='${img}' alt='${alt}' />
+      <div class='col-sm-5 img-aluno'>
+        <img class='img' src='${img}' alt='${alt}' />
       </div>
 
       <div class='col-sm-7'>

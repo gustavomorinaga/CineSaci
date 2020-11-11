@@ -22,13 +22,13 @@ echo Navbar("../", "Normas");
 					<div class="col-lg-4">
 						<div class="nav nav-pills " id="faq-tabs" role="tablist" aria-orientation="vertical">
 							<a href="#tab1" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab1" aria-selected="true">
-								<i class="mdi mdi-help-circle"></i> Frequently Asked Questions
+								<i class="mdi mdi-help-circle"></i>Perguntas Frequentes
 							</a>
 							<a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2" aria-selected="false">
-								<i class="mdi mdi-account"></i> Profile
+								<i class="mdi mdi-account"></i>Primeira seção
 							</a>
 							<a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3" aria-selected="false">
-								<i class="mdi mdi-account-settings"></i> Account
+								<i class="mdi mdi-account-settings"></i>Segunda seção
 							</a>             	
 						</div>
 					</div>
@@ -39,52 +39,52 @@ echo Navbar("../", "Normas");
 									<div class="card">
 										<div class="card-header" id="accordion-tab-1-heading-1">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-1" aria-expanded="false" aria-controls="accordion-tab-1-content-1">Just once I'd like to eat dinner with a celebrity?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-1" aria-expanded="false" aria-controls="accordion-tab-1-content-1">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse show" id="accordion-tab-1-content-1" aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
 											<div class="card-body">
-												<p>Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. I was having the most wonderful dream. Except you were there, and you were there, and you were there! No argument here. Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be.</p>
-												<p><strong>Example: </strong>Shut up and get to the point!</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, omnis repellendus quibusdam animi odio rem iure tenetur. Tempore veniam ipsum, odio numquam provident quisquam amet dolorum dolore? Consectetur, error ex.</p>
+												<p><strong>Exemplo: </strong>Lorem</p>
 											</div>
 										</div>
 									</div>
 									<div class="card">
 										<div class="card-header" id="accordion-tab-1-heading-2">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-2" aria-expanded="false" aria-controls="accordion-tab-1-content-2">Bender, I didn't know you liked cooking?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-2" aria-expanded="false" aria-controls="accordion-tab-1-content-2">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse" id="accordion-tab-1-content-2" aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
 											<div class="card-body">
-												<p>That's so cute. Can we have Bender Burgers again? Is the Space Pope reptilian!? I wish! It's a nickel. Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually!</p>
-												<p><strong>Example: </strong>Okay, I like a challenge. Is that a cooking show? No argument here.</p>
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur sequi animi ab rerum fugit! Voluptate, dignissimos. Magni amet minus quam pariatur? Animi iure adipisci reprehenderit nam quisquam officiis et quos!</p>
+												<p><strong>Exemplo: </strong>Lorem</p>
 											</div>
 										</div>
 									</div>
 									<div class="card">
 										<div class="card-header" id="accordion-tab-1-heading-3">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-3" aria-expanded="false" aria-controls="accordion-tab-1-content-3">My fellow Earthicans?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-3" aria-expanded="false" aria-controls="accordion-tab-1-content-3">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse" id="accordion-tab-1-content-3" aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
 											<div class="card-body">
-												<p>As I have explained in my book 'Earth in the Balance', and the much more popular 'Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Fry, you can't just sit here in the dark listening to classical music.</p>
-												<p><strong>Example: </strong>Actually, that's still true. Well, let's just dump it in the sewer and say we delivered it.</p>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima quo illo! Saepe incidunt eaque rerum optio numquam quia nesciunt vero mollitia fugiat molestiae? Praesentium quidem ipsam excepturi incidunt perspiciatis.</p>
+												<p><strong>Exemplo: </strong>Lorem</p>
 											</div>
 										</div>
 									</div>
 									<div class="card">
 										<div class="card-header" id="accordion-tab-1-heading-4">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-4" aria-expanded="false" aria-controls="accordion-tab-1-content-4">Who am I making this out to?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-4" aria-expanded="false" aria-controls="accordion-tab-1-content-4">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse" id="accordion-tab-1-content-4" aria-labelledby="accordion-tab-1-heading-4" data-parent="#accordion-tab-1">
 											<div class="card-body">
-												<p>Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat. Also Zoidberg. Can we have Bender Burgers again? Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords.</p>
-												<p><strong>Example: </strong>Cruel though they may be...</p>
+												<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consectetur quas cumque nobis quis. Quo magni obcaecati, dignissimos quae facere minima omnis earum sint dicta! Possimus earum voluptate debitis eligendi!</p>
+												<p><strong>Exemplo: </strong>Lorem</p>
 											</div>
 										</div>
 									</div>
@@ -95,52 +95,52 @@ echo Navbar("../", "Normas");
 									<div class="card">
 										<div class="card-header" id="accordion-tab-2-heading-1">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-1" aria-expanded="false" aria-controls="accordion-tab-2-content-1">Does anybody else feel jealous and aroused and worried?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-1" aria-expanded="false" aria-controls="accordion-tab-2-content-1">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse show" id="accordion-tab-2-content-1" aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
 											<div class="card-body">
-												<p>Kif, I have mated with a woman. Inform the men. This is the worst part. The calm before the battle. Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.</p>
-												<p><strong>Example: </strong>There's no part of that sentence I didn't like! You, a bobsleder!? That I'd like to see!</p>
+												<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias magni, corrupti, rem natus dicta, corporis laboriosam sunt nobis deserunt quisquam non. Quasi, animi totam earum sunt itaque inventore nostrum at.</p>
+												<p><strong>Exemplo: </strong>Lorem</p>
 											</div>
 										</div>
 									</div>
 									<div class="card">
 										<div class="card-header" id="accordion-tab-2-heading-2">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-2" aria-expanded="false" aria-controls="accordion-tab-2-content-2">This opera's as lousy as it is brilliant?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-2" aria-expanded="false" aria-controls="accordion-tab-2-content-2">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse" id="accordion-tab-2-content-2" aria-labelledby="accordion-tab-2-heading-2" data-parent="#accordion-tab-2">
 											<div class="card-body">
-												<p>Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry! It's okay, Bender. I like cooking too. Interesting. No, wait, the other thing: tedious.</p>
-												<p><strong>Example: </strong>Of all the friends I've had… you're the first. But I know you in the future. I cleaned your poop. Then we'll go with that data file!</p>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, rerum dolor laudantium dolorem, dolore blanditiis dignissimos cumque ipsum, natus harum error. Omnis aliquam nihil animi vitae laborum ullam natus ea.</p>
+												<p><strong>Exemplo: </strong>Lorem</p>
 											</div>
 										</div>
 									</div>
 									<div class="card">
 										<div class="card-header" id="accordion-tab-2-heading-3">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Who are you, my warranty?!</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse" id="accordion-tab-2-content-3" aria-labelledby="accordion-tab-2-heading-3" data-parent="#accordion-tab-2">
 											<div class="card-body">
-												<p>Oh, I think we should just stay friends. I'll tell them you went down prying the wedding ring off his cold, dead finger. Aww, it's true. I've been hiding it for so long. Say it in Russian! Then throw her in the laundry room, which will hereafter be referred to as "the brig".</p>
-												<p><strong>Example: </strong> We're rescuing ya. Robot 1-X, save my friends! And Zoidberg! <em>Then we'll go with that data file!</em> Okay, I like a challenge.</p>
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolore assumenda voluptates, ipsam dignissimos autem laboriosam in dolorum animi, molestiae nobis! Modi voluptates veritatis, ipsa aliquam libero fuga commodi ducimus!</p>
+												<p><strong>Exemplo: </strong>Lorem <em>Lorem</em> Lorem</p>
 											</div>
 										</div>
 									</div>
 									<div class="card">
 										<div class="card-header" id="accordion-tab-2-heading-4">
 											<h5>
-												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-4" aria-expanded="false" aria-controls="accordion-tab-2-content-4">I haven't felt much of anything since my guinea pig died?</button>
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-4" aria-expanded="false" aria-controls="accordion-tab-2-content-4">Lorem ipsum</button>
 											</h5>
 										</div>
 										<div class="collapse" id="accordion-tab-2-content-4" aria-labelledby="accordion-tab-2-heading-4" data-parent="#accordion-tab-2">
 											<div class="card-body">
-												<p>And I'm his friend Jesus. Oh right. I forgot about the battle. OK, if everyone's finished being stupid. We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day.</p>
-												<p><strong>Example: </strong> Isn't it true that you have been paid for your testimony? Quite possible.</p>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis excepturi illo cum totam quam tempora alias libero eligendi, quibusdam culpa reprehenderit nisi fuga expedita neque. Nihil quidem voluptatum debitis!</p>
+												<p><strong>Exemplo: </strong> Lorem</p>
 											</div>
 										</div>
 									</div>

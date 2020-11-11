@@ -24,6 +24,10 @@ section.main-banner {
 	background-repeat: no-repeat;
 }
 
+/* .dark-mode {
+	filter: invert(1) hue-rotate(180deg);
+} */
+
 /* HEADER */
 
 header {
@@ -89,12 +93,14 @@ main .main-content {
 }
 
 main .main-content figure {
+	width: 100%;
+	height: 200px;
 	margin: 0;
 }
 
 main .main-content figure img{
 	width: 100%;
-	height: 180px;
+	height: 100%;
 }
 
 main .main-content .nav-pills {
@@ -356,6 +362,19 @@ main .about-content .card-header {
 	margin-bottom: 0;
 	background-color: initial;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+main .about-content .img-aluno {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+
+	margin-bottom: 1rem;
+}
+
+main .about-content .img-aluno .img {
+	width: 75%;
+	border-radius: 50%;
 }
 
 /* FOOTER */

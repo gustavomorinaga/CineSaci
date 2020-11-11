@@ -20,7 +20,7 @@ echo Navbar("../", "Quem Somos");
 		<?php
 		include_once "../components/Aluno/index.php";
 		echo Aluno(
-			"https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+			"https://avatars2.githubusercontent.com/u/47375774?s=460&u=ef52a254372ddcc6c7b17dfce63a087bbad14e0e&v=4",
 			"Aluno",
 			"Nome do aluno",
 			"Programador",
@@ -33,7 +33,7 @@ echo Navbar("../", "Quem Somos");
 		<?php
 		include_once "../components/Aluno/index.php";
 		echo Aluno(
-			"https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+			"https://avatars0.githubusercontent.com/u/54083619?s=460&v=4",
 			"Aluno",
 			"Nome do aluno",
 			"Programador",
@@ -46,7 +46,7 @@ echo Navbar("../", "Quem Somos");
 		<?php
 		include_once "../components/Aluno/index.php";
 		echo Aluno(
-			"https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+			"https://avatars1.githubusercontent.com/u/72390868?s=460&u=9ec7c23a483ceb8275a736b3a2f500d6c6d0aca3&v=4",
 			"Aluno",
 			"Nome do aluno",
 			"Programador",
