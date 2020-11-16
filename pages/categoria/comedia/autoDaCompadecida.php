@@ -4,42 +4,29 @@ echo Navbar("../../../", "O Auto da Compadecida");
 ?>
 
 <script>
-	document.querySelectorAll('.nav-item')[1].classList.add('active');
+	document.querySelectorAll('.nav-item')[2].classList.add('active');
 </script>
 
 <main>
 
 	<?php
 		include_once "../../../components/Filme/index.php";
+
+		$json = file_get_contents('../../../database/data.json');
+		$filmes = json_decode($json);
+
 		echo Filme(
-			'Comédia',
-			'O Auto da Compadecida',
-			'10 de setembro de 2000',
-			'Ariano Suassuna',
-			'auto_da_compadecida_cover.jpg',
-			'As aventuras nordestinas de João Grilo um pobre sertanejo, mentiroso e Chicó o rapaz mais covarde de todos os homens. Ambos buscam pelo pão de cada dia e passam por vários episódios enganando a todos do pequeno vilarejo de Taperó, sertão da Paraíba. A salvação da dupla acontece com a aparição da Nossa Senhora. Adaptação da obra de Ariano Suassuna.', 
-			ListaElenco([
-				'Matheus Nachtergaele como João Grilo',
-				'Selton Mello como Chicó',
-				'Rogério Cardoso como Padre João',
-				'Lima Duarte como o Bispo',
-				'Denise Fraga como Dora',
-				'Diogo Vilela como Eurico',
-				'Paulo Goulart como Major Antônio Morais',
-				'Virginia Cavendish como Rosinha',
-				'Aramis Trindade como o cabo Setenta',
-				'Marco Nanini como "Capitão" Severino de Aracaju',
-				'Maurício Gonçalves como Jesus Cristo ("Emanuel")',
-				'Fernanda Montenegro como Nossa Senhora da "Compadecida"',
-				'Luís Melo como o Diabo',
-				'Bruno Garcia como Vicentão',
-				'Enrique Diaz como Cangaceiro "Cabra"'
-			]),
-			'10 de setembro de 2000',
-			ListaPlataforma([
-				'GloboPlay'
-			]),
-			'Guel Arraes');
+			$filmes->filmes[2]->pagina->categoria,
+			$filmes->filmes[2]->pagina->titulo,
+			$filmes->filmes[2]->data,
+			$filmes->filmes[2]->pagina->autor,
+			$filmes->filmes[2]->pagina->banner,
+			$filmes->filmes[2]->pagina->sinopse, 
+			ListaElenco($filmes->filmes[2]->pagina->elenco),
+			$filmes->filmes[2]->pagina->lancamento,
+			ListaPlataforma($filmes->filmes[2]->pagina->plataformas),
+			$filmes->filmes[2]->pagina->diretor
+		);
 	?>
 
 </main>

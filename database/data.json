@@ -1,0 +1,202 @@
+{
+	"filmes": [
+		{
+			"thumb": "./images/doutrinador_thumb.jpg",
+			"data": "10 de novembro de 2020",
+			"descricao": "Justiceiro brasileiro",
+			"pagina": {
+				"titulo": "O Doutrinador",
+				"banner": "doutrinador_cover.jpg",
+				"categoria": "Ação",
+				"autor": "Luciano Cunha",
+				"sinopse": "Um agente traumatizado decide fazer justiça com as próprias mãos em busca de vingança. Atacando a impunidade que concede aos donos de empreiteiras e políticos enriqueçam, através da miséria da população brasileira.",
+				"elenco": [
+					"Kiko Pissolato como Miguel Montessant (O Doutrinador)",
+					"Tainá Medina como Nina",
+					"Samuel de Assis como Edu",
+					"Nicolas Trevijano como Diogo",
+					"Marília Gabriela como Maria",
+					"Eduardo Moscovis como Sandro Corrêa",
+					"Carlos Betão como Antero Gomes",
+					"Eduardo Chagas como Oliveira",
+					"Natália Lage como Isabela Montessant",
+					"Tuca Andrada como Tenente Siqueira",
+					"Natallia Rodrigues como Penélope",
+					"Helena Ranaldi como Julia Machado",
+					"Lucy Ramos como Marina Sales",
+					"Helena Luz como Alice Montessant"
+				],
+				"lancamento": "1 de novembro de 2018",
+				"plataformas": ["GloboPlay", "Telecine"],
+				"diretor": "Gustavo Bonafé"
+			}
+		},
+		{
+			"thumb": "./images/tropa_de_elite_thumb.jpg",
+			"data": "10 de novembro de 2020",
+			"descricao": "Justiceiro brasileiro",
+			"pagina": {
+				"titulo": "Tropa de Elite",
+				"banner": "tropa_de_elite_cover.jpg",
+				"categoria": "Ação",
+				"autor": "Rodrigo Pimentel",
+				"sinopse": "O filme mostra o dia-a-dia de policiais do BOPE, comanda pelo capitão Nascimento, um policial que está buscando um substituto para poder deixar o batalhão. Nesta busca dois amigos de infância se tornam policiais ressaltados pela honestidade e honra, indignados com a corrupção da polícia do Rio.",
+				"elenco": [
+          "Wagner Moura como Roberto Nascimento (Capitão Nascimento)",
+          "André Ramiro como André Matias",
+          "Caio Junqueira como Neto Gouveia",
+          "Milhem Cortaz como Fábio Barbosa",
+          "Milhem Cortaz como Riquelme",
+          "Fernanda Machado como Maria",
+          "Paulo Vilela como Eduardo",
+          "Fernanda de Freitas como Roberta Fontes",
+          "Maria Ribeiro como Rosane",
+          "Fábio Lago como Claudio Baiano",
+          "André Di Mauro como Pedro Rodrigues",
+          "Juliano Cazarré como Soldado Tatu",
+          "Marcelo Valle como Oliveira",
+          "Marcelo Escorel como Coronel Otávio",
+          "Sandro Rocha como Sargento Rocha",
+          "Paulo Hamilton como Soldado Paulo"
+				],
+				"lancamento": "5 de outubro de 2007",
+				"plataformas": ["Netflix", "GloboPlay", "Telecine"],
+				"diretor": "José Padilha"
+			}
+    },
+    {
+			"thumb": "./images/doutrinador_thumb.jpg",
+			"data": "10 de novembro de 2020",
+			"descricao": "Justiceiro Brasileiro",
+			"pagina": {
+				"titulo": "O Auto da Compadecida",
+				"banner": "auto_da_compadecida_cover.jpg",
+				"categoria": "Comédia",
+				"autor": "Ariano Suassuna",
+				"sinopse": "As aventuras nordestinas de João Grilo um pobre sertanejo, mentiroso e Chicó o rapaz mais covarde de todos os homens. Ambos buscam pelo pão de cada dia e passam por vários episódios enganando a todos do pequeno vilarejo de Taperó, sertão da Paraíba. A salvação da dupla acontece com a aparição da Nossa Senhora. Adaptação da obra de Ariano Suassuna.",
+				"elenco": [
+          "Matheus Nachtergaele como João Grilo",
+          "Selton Mello como Chicó",
+          "Rogério Cardoso como Padre João",
+          "Lima Duarte como o Bispo",
+          "Denise Fraga como Dora",
+          "Diogo Vilela como Eurico",
+          "Paulo Goulart como Major Antônio Morais",
+          "Virginia Cavendish como Rosinha",
+          "Aramis Trindade como o cabo Setenta",
+          "Marco Nanini como 'Capitão' Severino de Aracaju",
+          "Maurício Gonçalves como Jesus Cristo ('Emanuel')",
+          "Fernanda Montenegro como Nossa Senhora da 'Compadecida'",
+          "Luís Melo como o Diabo",
+          "Bruno Garcia como Vicentão",
+          "Enrique Diaz como Cangaceiro 'Cabra'"
+				],
+				"lancamento": "10 de setembro de 2000",
+				"plataformas": ["GloboPlay"],
+				"diretor": "Guel Arraes"
+			}
+    },
+    {
+			"thumb": "./images/doutrinador_thumb.jpg",
+			"data": "10 de novembro de 2020",
+			"descricao": "Justiceiro brasileiro",
+			"pagina": {
+				"titulo": "Crô - O Filme",
+				"banner": "cro_cover.jpg",
+				"categoria": "Comédia",
+				"autor": "Aguinaldo Silva",
+				"sinopse": "Após herdar a fortuna de Tereza Cristina, Crodoaldo Valério, mais conhecido como 'Crô' (Marcelo Serrado) está cansado da vida de milionário. Decidido a encontrar uma nova musa a quem possa dedicar sua vida, ele inicia uma busca pessoal que faz com que entreviste diversas peruas. Seu objetivo é encontrar aquela que seja melhor qualificada para que ele próprio possa servir como mordomo, assim como fez com sua antiga patroa. Entretanto, após muito avaliar, acaba percebendo que sua musa ideal é justamente aquela que jamais havia imaginado. E ao mesmo tempo demonstra que ficou apaixonado pelo motorista Baltazar (Alexandre Nero) a quem o chama de Zoiudo e que é um machão homofóbico.", 
+				"elenco": [
+          "Marcelo Serrado como Crodoaldo Valério (Crô)",
+          "Alexandre Nero como Baltazar (Zóiudo)",
+          "Urzula Canaviri como Paloma Arce",
+          "Carolina Ferraz como Vanusa Ribeiro",
+          "Milhem Cortaz como Riquelme",
+          "Kátia Moraes como Marilda",
+          "Carlos Machado como Jean-Jacques",
+          "Nataly Cabanas como Elena Arce",
+          "Mari Nogueira como Juana",
+          "Ivete Sangalo como Alzira Valério",
+          "Luciana Paes como Ariadne Fontura",
+          "Alice Assef como Gilda",
+          "Tiago Abravanel como Juiz de Paz",
+          "Karin Rodrigues como Francisca Oliveira",
+          "Jacqueline Dalabona como Madame",
+          "David Brasil como cabeleireiro",
+          "Salete Campari como convidada do casamento",
+          "Ana Maria Braga como ela mesma",
+          "Gaby Amarantos como ela mesma"
+				],
+				"lancamento": "29 de novembro de 2013",
+				"plataformas": ["Netflix"],
+				"diretor": "Bruno Barreto"
+			}
+    },
+    {
+			"thumb": "./images/carandiru_thumb.jpg",
+			"data": "10 de novembro de 2020",
+			"descricao": "Justiceiro brasileiro",
+			"pagina": {
+				"titulo": "Carandiru",
+				"banner": "carandiru_cover.jpg",
+				"categoria": "Drama",
+				"autor": "Drauzio Varella",
+				"sinopse": "Um médico é voluntário, em um trabalho de prevenção a AIDS em um dos maiores presídios da América Latina, conhecido como Carandiru. Ele começa a observar a realidade vivida dentro dos cárceres, visualizando muita violência, celas lotadas e instalações precárias. Entretanto apesar de vários problemas, o médico percebe que os prisioneiros lá dentro são solidários, organizados e com grande disposição para viver.",
+				"elenco": [
+					"Luiz Carlos Vasconcelos como Dr. Drauzio Varella",
+				  "Rodrigo Santoro como Lady Di",
+			  	"Milton Gonçalves como Chico",
+			  	"Lázaro Ramos como Ezequiel",
+			  	"Caio Blat como Deusdete",
+          "Milhem Cortaz como Peixeira",
+			  	"Wagner Moura como Zico",
+			  	"Dionisio Neto como Lula",
+			  	"Floriano Peixoto como Antônio Carlos",
+			  	"Rita Cadillac como ela mesma",
+			  	"Gero Camilo como Sem Chance",
+			  	"Ivan de Almeida como Nego Preto",
+				  "Ailton Graça como Majestade",
+			  	"Maria Luisa Mendonça como Dalva",
+			  	"Aída Leiner como Rosirene",
+			  	"Júlia Ianina como Francineide",
+			  	"Sabrina Greve como Catarina",
+				  "Nelson Machado como Carioca",
+			  	"Sabotage como Fuinha"
+				],
+				"lancamento": "11 de abril de 2003",
+				"plataformas": ["Now NET"],
+				"diretor": "Héctor Babenco"
+			}
+    },
+    {
+			"thumb": "./images/doutrinador_thumb.jpg",
+			"data": "10 de novembro de 2020",
+			"descricao": "Justiceiro brasileiro",
+			"pagina": {
+				"titulo": "Cidade de Deus",
+				"banner": "cidade_de_deus_cover.jpg",
+				"categoria": "Drama",
+				"autor": "Paulo Lins",
+				"sinopse": "A história de um jovem negro, pobre que cresce em um ambiente de violência chamado Buscapé. Ele vive na Cidade Deus, localizada na favela conhecida por seu alto índice de violência. Aterrorizado com a possibilidade de se tornar um bandido, Buscapé por ordem do destino é salvo, pelo seu talento de fotógrafo, o que permite que ele siga nessa carreira profissional e através das câmeras mostra o dia-a-dia da favela onde vive e a violência prevalece.",
+				"elenco": [
+          "Alexandre Rodrigues como Wilson Rodrigues(Buscapé)",
+          "Leandro Firmino como Zé Pequeno",
+          "Phellipe Haagensen como Bené",
+          "Matheus Nachtergaele como Sandro Cenoura",
+          "Seu Jorge como Mané Galinha",
+          "Jonathan Haagensen como Cabeleira",
+          "Renato de Souza como Renato Rodrigues(Marreco)",
+          "Alice Braga como Angelica",
+          "Roberta Rodrigues como Berenice",
+          "Daniel Zettel como Tiago",
+          "Rubens Sabino como Neguinho",
+          "Babu Santana como Grande",
+          "Mumuzinho como Palito"
+				],
+				"lancamento": "30 de agosto de 2002",
+				"plataformas": ["Telecine"],
+				"diretor": "Fernando Meirelles"
+			}
+    }
+	]
+}

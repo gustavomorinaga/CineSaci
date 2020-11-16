@@ -11,35 +11,22 @@ echo Navbar("../../../", "O Doutrinador");
 
 	<?php
 		include_once "../../../components/Filme/index.php";
+
+		$json = file_get_contents('../../../database/data.json');
+		$filmes = json_decode($json);
+
 		echo Filme(
-			'Ação',
-			'O Doutrinador',
-			'1 de novembro de 2018',
-			'Luciano Cunha',
-			'doutrinador_cover.jpg',
-			'Um agente traumatizado decide fazer justiça com as próprias mãos em busca de vingança. Atacando a impunidade que concede aos donos de empreiteiras e políticos enriqueçam, através da miséria da população brasileira.', 
-			ListaElenco([
-				'Kiko Pissolato como Miguel Montessant (O Doutrinador)',
-				'Tainá Medina como Nina',
-				'Samuel de Assis como Edu',
-				'Nicolas Trevijano como Diogo',
-				'Marília Gabriela como Maria',
-				'Eduardo Moscovis como Sandro Corrêa',
-				'Carlos Betão como Antero Gomes',
-				'Eduardo Chagas como Oliveira',
-				'Natália Lage como Isabela Montessant',
-				'Tuca Andrada como Tenente Siqueira',
-				'Natallia Rodrigues como Penélope',
-				'Helena Ranaldi como Julia Machado',
-				'Lucy Ramos como Marina Sales',
-				'Helena Luz como Alice Montessant'
-			]),
-			'5 de outubro de 2007',
-			ListaPlataforma([
-				'GloboPlay',
-				'Telecine'
-			]),
-			'Gustavo Bonafé');
+			$filmes->filmes[0]->pagina->categoria,
+			$filmes->filmes[0]->pagina->titulo,
+			$filmes->filmes[0]->data,
+			$filmes->filmes[0]->pagina->autor,
+			$filmes->filmes[0]->pagina->banner,
+			$filmes->filmes[0]->pagina->sinopse, 
+			ListaElenco($filmes->filmes[0]->pagina->elenco),
+			$filmes->filmes[0]->pagina->lancamento,
+			ListaPlataforma($filmes->filmes[0]->pagina->plataformas),
+			$filmes->filmes[0]->pagina->diretor
+		);
 	?>
 
 </main>

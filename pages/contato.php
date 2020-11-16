@@ -64,7 +64,7 @@ echo Navbar("../", "Contato");
 
 							<div class="form-group">
 								<label for="mensagem">Mensagem:</label>
-								<textarea class="form-control" id="mensagem" rows="8" placeholder="Digite as mensagens..." required></textarea>
+								<textarea class="form-control" id="mensagem" rows="8" placeholder="Digite a sua mensagem..." required></textarea>
 							</div>
 
 							<button type="submit" class="btn btn-primary mb-2">Enviar E-Mail</button>

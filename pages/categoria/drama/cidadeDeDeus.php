@@ -11,37 +11,22 @@ echo Navbar("../../../", "Cidade de Deus");
 
 	<?php
 		include_once "../../../components/Filme/index.php";
+
+		$json = file_get_contents('../../../database/data.json');
+		$filmes = json_decode($json);
+
 		echo Filme(
-			'Drama',
-			'Cidade de Deus',
-			'30 de agosto de 2002',
-			'Paulo Lins',
-			'cidade_de_deus_cover.jpg',
-			'A história de um jovem negro, pobre que cresce em um ambiente de violência chamado Buscapé. Ele vive na
-			Cidade Deus, localizada na favela conhecida por seu alto índice de violência. Aterrorizado com a
-			possibilidade de se tornar um bandido, Buscapé por ordem do destino é salvo, pelo seu talento de fotógrafo,
-			o que permite que ele siga nessa carreira profissional e através das câmeras mostra o dia-a-dia da favela
-			onde vive e a violência prevalece.', 
-			ListaElenco([
-				'Alexandre Rodrigues como Wilson Rodrigues(Buscapé)',
-				'Leandro Firmino como Zé Pequeno',
-				'Phellipe Haagensen como Bené',
-				'Matheus Nachtergaele como Sandro Cenoura',
-				'Seu Jorge como Mané Galinha',
-				'Jonathan Haagensen como Cabeleira',
-				'Renato de Souza como Renato Rodrigues(Marreco)',
-				'Alice Braga como Angelica',
-				'Roberta Rodrigues como Berenice',
-				'Daniel Zettel como Tiago',
-				'Rubens Sabino como Neguinho',
-				'Babu Santana como Grande',
-				'Mumuzinho como Palito'
-			]),
-			'30 de agosto de 2002',
-			ListaPlataforma([
-				'Telecine'
-			]),
-			'Fernando Meirelles');
+			$filmes->filmes[5]->pagina->categoria,
+			$filmes->filmes[5]->pagina->titulo,
+			$filmes->filmes[5]->data,
+			$filmes->filmes[5]->pagina->autor,
+			$filmes->filmes[5]->pagina->banner,
+			$filmes->filmes[5]->pagina->sinopse, 
+			ListaElenco($filmes->filmes[5]->pagina->elenco),
+			$filmes->filmes[5]->pagina->lancamento,
+			ListaPlataforma($filmes->filmes[5]->pagina->plataformas),
+			$filmes->filmes[5]->pagina->diretor
+		);
 	?>
 
 </main>

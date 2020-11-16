@@ -8,7 +8,12 @@ echo Navbar("./", "Home");
 </script>
 
 <main>
-	<section class="main-banner"></section>
+	<section class="main-banner">
+		<span class="banner-text">
+			<h1>Olá mundo!</h1>
+			<h2>Breve descrição</h2>
+		</span>
+	</section>
 
 	<div class="container main-content">
 		<div class="row">
@@ -82,7 +87,7 @@ echo Navbar("./", "Home");
 				<h2>TRAILERS</h2>
 				<div class="row">
 					<div class="col-sm-6">
-						<img src="https://hyperflix.vercel.app/static/media/Logo.632cc64b.png" alt="" />
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/uZBiNJQxtGw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 
 					<div class="col-sm-6">
