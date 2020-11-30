@@ -9,50 +9,78 @@ echo Navbar("../", "Quem Somos");
 
 <main>
 
-	<div class="container about-content">
+	<section class="container about-content">
 		<h1>QUEM SOMOS</h1>
-		<div class="row content">
-			<div class="col-sm-12">
+		<section class="row content">
+			<article class="col-sm-12">
 				<h2>Equipe Criativa</h2>
-			</div>
-		</div>
+			</article>
+		</section>
 		
 		<?php
 		include_once "../components/Aluno/index.php";
+
+		$json = file_get_contents('../database/data.json');
+		$alunos = json_decode($json);
+
 		echo Aluno(
-			"https://avatars2.githubusercontent.com/u/47375774?s=460&u=ef52a254372ddcc6c7b17dfce63a087bbad14e0e&v=4",
-			"Aluno",
-			"Nome do aluno",
-			"Programador",
-			"123.456.789-0",
-			"Front-End",
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?"
-		);
-		?>
-		
-		<?php
-		include_once "../components/Aluno/index.php";
-		echo Aluno(
-			"https://avatars0.githubusercontent.com/u/54083619?s=460&v=4",
-			"Aluno",
-			"Nome do aluno",
-			"Programador",
-			"123.456.789-0",
-			"Front-End",
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?"
+			$alunos->alunos[0]->avatar,
+			$alunos->alunos[0]->nome,
+			$alunos->alunos[0]->nome,
+			$alunos->alunos[0]->cargo,
+			$alunos->alunos[0]->ra,
+			$alunos->alunos[0]->area,
+			$alunos->alunos[0]->bio
 		);
 
-		?>
-		<?php
-		include_once "../components/Aluno/index.php";
 		echo Aluno(
-			"https://avatars1.githubusercontent.com/u/72390868?s=460&u=9ec7c23a483ceb8275a736b3a2f500d6c6d0aca3&v=4",
-			"Aluno",
-			"Nome do aluno",
-			"Programador",
-			"123.456.789-0",
-			"Front-End",
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?"
+			$alunos->alunos[1]->avatar,
+			$alunos->alunos[1]->nome,
+			$alunos->alunos[1]->nome,
+			$alunos->alunos[1]->cargo,
+			$alunos->alunos[1]->ra,
+			$alunos->alunos[1]->area,
+			$alunos->alunos[1]->bio
+		);
+
+		echo Aluno(
+			$alunos->alunos[2]->avatar,
+			$alunos->alunos[2]->nome,
+			$alunos->alunos[2]->nome,
+			$alunos->alunos[2]->cargo,
+			$alunos->alunos[2]->ra,
+			$alunos->alunos[2]->area,
+			$alunos->alunos[2]->bio
+		);
+
+		echo Aluno(
+			$alunos->alunos[3]->avatar,
+			$alunos->alunos[3]->nome,
+			$alunos->alunos[3]->nome,
+			$alunos->alunos[3]->cargo,
+			$alunos->alunos[3]->ra,
+			$alunos->alunos[3]->area,
+			$alunos->alunos[3]->bio
+		);
+
+		echo Aluno(
+			$alunos->alunos[4]->avatar,
+			$alunos->alunos[4]->nome,
+			$alunos->alunos[4]->nome,
+			$alunos->alunos[4]->cargo,
+			$alunos->alunos[4]->ra,
+			$alunos->alunos[4]->area,
+			$alunos->alunos[4]->bio
+		);
+
+		echo Aluno(
+			$alunos->alunos[5]->avatar,
+			$alunos->alunos[5]->nome,
+			$alunos->alunos[5]->nome,
+			$alunos->alunos[5]->cargo,
+			$alunos->alunos[5]->ra,
+			$alunos->alunos[5]->area,
+			$alunos->alunos[5]->bio
 		);
 		?>
 

@@ -1,7 +1,7 @@
 {
 	"filmes": [
 		{
-			"thumb": "./images/doutrinador_thumb.jpg",
+			"thumb": "doutrinador_thumb.jpg",
 			"data": "10 de novembro de 2020",
 			"descricao": "Justiceiro brasileiro",
 			"pagina": {
@@ -32,7 +32,7 @@
 			}
 		},
 		{
-			"thumb": "./images/tropa_de_elite_thumb.jpg",
+			"thumb": "tropa_de_elite_thumb.jpg",
 			"data": "10 de novembro de 2020",
 			"descricao": "Justiceiro brasileiro",
 			"pagina": {
@@ -65,7 +65,7 @@
 			}
     },
     {
-			"thumb": "./images/doutrinador_thumb.jpg",
+			"thumb": "doutrinador_thumb.jpg",
 			"data": "10 de novembro de 2020",
 			"descricao": "Justiceiro Brasileiro",
 			"pagina": {
@@ -97,7 +97,7 @@
 			}
     },
     {
-			"thumb": "./images/doutrinador_thumb.jpg",
+			"thumb": "doutrinador_thumb.jpg",
 			"data": "10 de novembro de 2020",
 			"descricao": "Justiceiro brasileiro",
 			"pagina": {
@@ -133,7 +133,7 @@
 			}
     },
     {
-			"thumb": "./images/carandiru_thumb.jpg",
+			"thumb": "carandiru_thumb.jpg",
 			"data": "10 de novembro de 2020",
 			"descricao": "Justiceiro brasileiro",
 			"pagina": {
@@ -169,7 +169,7 @@
 			}
     },
     {
-			"thumb": "./images/doutrinador_thumb.jpg",
+			"thumb": "doutrinador_thumb.jpg",
 			"data": "10 de novembro de 2020",
 			"descricao": "Justiceiro brasileiro",
 			"pagina": {
@@ -198,5 +198,55 @@
 				"diretor": "Fernando Meirelles"
 			}
     }
+	],
+	"alunos": [
+		{
+			"nome": "Gustavo Matheus Morinaga Cardoso",
+			"cargo": "Desenvolvedor",
+			"ra": "2650832013015",
+			"area": "Full-Stack",
+			"bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?",
+			"avatar": "https://avatars2.githubusercontent.com/u/47375774?s=460&u=ef52a254372ddcc6c7b17dfce63a087bbad14e0e&v=4"
+		},
+		{
+			"nome": "Bruno Godinho de Moraes",
+			"cargo": "Desenvolvedor",
+			"ra": "2650832013025",
+			"area": "Full-Stack",
+			"bio":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?",
+			"avatar": "https://avatars0.githubusercontent.com/u/54083619?s=460&v=4"
+		},
+		{
+			"nome": "Gustavo Silva Gomes de Souza",
+			"cargo": "Desenvolvedor",
+			"ra": "2650832013018",
+			"area": "Back-End",
+			"bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?",
+			"avatar": "https://avatars1.githubusercontent.com/u/72390868?s=460&u=9ec7c23a483ceb8275a736b3a2f500d6c6d0aca3&v=4"
+		},
+		{
+			"nome": "Matheus Felipe Magalhães de Abreu",
+			"cargo": "Desenvolvedor",
+			"ra": "2650832013006",
+			"area": "Back-End",
+			"bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?",
+			"avatar": "https://avatars3.githubusercontent.com/u/67381800?s=460&v=4"
+		},
+		{
+			"nome": "Pedro Henrique Ribeiro do Nascimento",
+			"cargo": "Desenvolvedor",
+			"ra": "2650832013021",
+			"area": "Front-End",
+			"bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?",
+			"avatar": "https://avatars2.githubusercontent.com/u/70548560?s=460&u=c0a4a78dbe8dfcbc37599f2fe46a49dfb5133002&v=4"
+		},
+		{
+			"nome": "Julio Loewenberg Passalacqua",
+			"cargo": "Desenvolvedor",
+			"ra": "2650831923006",
+			"area": "Back-End",
+			"bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusantium vitae doloribus exercitationem aliquam tempora, blanditiis quasi amet voluptatibus non soluta? Quaerat laudantium placeat inventore blanditiis cupiditate doloremque labore culpa?",
+			"avatar": "https://avatars2.githubusercontent.com/u/70548560?s=460&u=c0a4a78dbe8dfcbc37599f2fe46a49dfb5133002&v=4"
+		}
 	]
 }

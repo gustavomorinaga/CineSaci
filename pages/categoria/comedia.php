@@ -9,13 +9,13 @@ echo Navbar("../../", "Comédia");
 
 <main>
 
-	<div class="container">
+	<section class="container">
 		<h1>Comédia</h1>
 		<?php
 		include_once "../../components/Noticias/index.php";
 		echo Noticias();
 		?>
-	</div>
+	</section>
 
 </main>
 

@@ -3,12 +3,12 @@
 function Noticias(): String
 {
   return "
-    <div class='row'>
-      <div class='row content'>
-        <div class='col-sm-8 news'>
-          <div class='col-sm-12'>
+    <section class='row'>
+      <section class='row content'>
+        <article class='col-sm-8 news'>
+          <section class='col-sm-12'>
             <h2>Notícias</h2>
-          </div>
+          </section>
           " . $noticiaItem =
     Noticia(
       "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
@@ -45,9 +45,9 @@ function Noticias(): String
       "24 de Março de 2077"
     ) . "
 
-        </div>
+        </article>
 
-        <div class='col-sm-4 top-movies'>
+        <aside class='col-sm-4 top-movies'>
           <h4>Top Filmes</h4>
 
         " . $topFilme =
@@ -85,21 +85,21 @@ function Noticias(): String
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "24 de Abril de 2077"
     ) . "
-        </div>
-      </div>
-    </div>
+        </aside>
+      </section>
+    </section>
   ";
 }
 
 function Noticia(string $img, string $alt, string $titulo, string $descricao, string $data): String {
   return "
-    <div class='col-sm-12'>
-      <div class='row'>
-        <div class='col-sm-2'>
+    <section class='col-sm-12'>
+      <section class='row'>
+        <aside class='col-sm-2'>
           <img class='logo' src='${img}' alt='${alt}' />
-        </div>
+        </aside>
 
-        <div class='col-sm-10'>
+        <article class='col-sm-10'>
           <h3>${titulo}</h3>
 
           <p>
@@ -108,27 +108,27 @@ function Noticia(string $img, string $alt, string $titulo, string $descricao, st
 
           <p>${data}</p>
           <hr />
-        </div>
+        </article>
         <hr />
-      </div>
-    </div>
+      </section>
+    </section>
   ";
 }
 
 function TopFilme(string $img,string $alt,string $titulo,string $descricao,string $data): String {
   return "
-    <div class='row'>
-      <div class='col-sm-3'>
+    <section class='row'>
+      <aside class='col-sm-3'>
         <img class='logo' src='${img}' alt='${alt}' />
-      </div>
+      </aside>
 
-      <div class='col-sm-9'>
+      <article class='col-sm-9'>
         <h5>${titulo}</h5>
 
         <p>${descricao}</p>
         <p>${data}</p>
         <hr />
-      </div>
-    </div>
+      </article>
+    </section>
   ";
 }

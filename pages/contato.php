@@ -9,11 +9,11 @@ echo Navbar("../", "Contato");
 
 <main>
 
-	<div class="container contact-content">
+	<section class="container contact-content">
 		<h1>CONTATO</h1>
-		<div class="row content">
+		<section class="row content">
 			<h2>Fale Conosco</h2>
-			<div class="col-sm-12">
+			<article class="col-sm-12">
 				<img class="logo" src="https://hyperflix.vercel.app/static/media/Logo.632cc64b.png" alt="Logo do Cine Saci" />
 				<p><strong>Endereço:</strong></p>
 				<p>Rua Piracicabana, N° 69, Debaixo da ponte - Angola</p>
@@ -23,26 +23,26 @@ echo Navbar("../", "Contato");
 
 				<p><strong>Celular:</strong></p>
 				<p>(11) 99999-6666</p>
-			</div>
-		</div>
+			</article>
+		</section>
 
-		<div class="row content">
+		<section class="row content">
 			<h2>Formulário de Contato</h2>
-			<div class="col-sm-12">
+			<section class="col-sm-12">
 				<form>
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="form-group">
+					<section class="row">
+						<article class="col-sm-6">
+							<section class="form-group">
 								<label for="name">Nome:</label>
 								<input type="text" class="form-control" id="name" placeholder="Digite seu nome" required>
-							</div>
+							</section>
 
-							<div class="form-group">
+							<section class="form-group">
 								<label for="email">E-Mail:</label>
 								<input type="email" class="form-control" id="email" placeholder="Digite seu E-mail" required>
-							</div>
+							</section>
 
-							<div class="form-group">
+							<section class="form-group">
 								<label for="assunto">Assunto</label>
 								<select class="form-control" id="assunto" required>
 									<option selected>Escolha um assunto...</option>
@@ -51,29 +51,29 @@ echo Navbar("../", "Contato");
 									<option value="3">Sugestões</option>
 									<option value="4">Problemas</option>
 								</select>
-							</div>
-							<div class="form-group form-check">
+							</section>
+							<section class="form-group form-check">
 								<label class="form-check-label" for="conf-email">
 									<input type="checkbox" class="form-check-input" id="conf-email">
 									Enviar um e-mail de confirmação para mim
 								</label>
-							</div>
-						</div>
+							</section>
+						</article>
 
-						<div class="col-sm-6">
+						<aside class="col-sm-6">
 
-							<div class="form-group">
+							<section class="form-group">
 								<label for="mensagem">Mensagem:</label>
 								<textarea class="form-control" id="mensagem" rows="8" placeholder="Digite a sua mensagem..." required></textarea>
-							</div>
+							</section>
 
 							<button type="submit" class="btn btn-primary mb-2">Enviar E-Mail</button>
 
-						</div>
-					</div>
+						</aside>
+					</section>
 				</form>
-			</div>
-		</div>
+			</section>
+		</section>
 
 </main>
 

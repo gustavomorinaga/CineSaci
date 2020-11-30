@@ -8,33 +8,33 @@ function Abas(string $aba, string $abasItem1, string $abasItem2, string $abasIte
   }
 
   return "
-    <div class='tab-pane ${activeClass}' id='${aba}'>
-      <div class='row'>
+    <section class='tab-pane ${activeClass}' id='${aba}'>
+      <section class='row'>
         ${abasItem1}
         ${abasItem2}
         ${abasItem3}
-      </div>
-    </div>
+      </section>
+    </section>
   ";
 }
 
 function AbasItem(string $img, string $alt, string $data, string $descricao): String {
   return "
-    <div class='col-sm-4'>
-      <div class='card'>
+    <section class='col-sm-4'>
+      <section class='card'>
         <figure class='figure'>
-          <img src='${img}' alt='${alt}' class='figure-img img-fluid' />
+          <img src='./images/${img}' alt='Miniatura de ${alt}' class='figure-img img-fluid' />
         </figure>
-        <div class='news-description'>
-          <div class='new'>Novo</div>
+        <aside class='news-description'>
+          <section class='new'>Novo</section>
           <caption>
             ${data}
           </caption>
-        </div>
-        <div class='card-body'>
+        </aside>
+        <article class='card-body'>
           <p class='card-text'>${descricao}</p>
-        </div>
-      </div>
-    </div>
+        </article>
+      </section>
+    </section>
   ";
 }

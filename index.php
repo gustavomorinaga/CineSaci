@@ -15,9 +15,9 @@ echo Navbar("./", "Home");
 		</span>
 	</section>
 
-	<div class="container main-content">
-		<div class="row">
-			<div class="tab-content col-sm-9">
+	<section class="container main-content">
+		<section class="row">
+			<article class="tab-content col-sm-9">
 				<ul class="nav nav-pills">
 					<li class="nav-item">
 						<a class="nav-link active" href="#AbaNoticias" data-toggle="tab">Notícias</a>
@@ -26,96 +26,99 @@ echo Navbar("./", "Home");
 						<a class="nav-link" href="#AbaLancamentos" data-toggle="tab">Lançamentos</a>
 					</li>
 				</ul>
-					<?php
-					include_once "./components/Abas/index.php";
-					echo Abas(
-						"AbaNoticias",
-						AbasItem(
-							"./images/tropa_de_elite_thumb.jpg", 
-							"Miniatura Tropa de Elite", 
-							"24 de Janeiro de 2077", 
-							"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati tempora suscipit asperiores vero? Qui dolores repellat voluptatum vero ad voluptatibus tempora est, nisi inventore facere quo debitis praesentium cum non?"
-						),
-						AbasItem(
-							"./images/carandiru_thumb.jpg", 
-							"Miniatura Tropa de Elite", 
-							"24 de Janeiro de 2077", 
-							"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati tempora suscipit asperiores vero? Qui dolores repellat voluptatum vero ad voluptatibus tempora est, nisi inventore facere quo debitis praesentium cum non?"
-						),
-						AbasItem(
-							"./images/doutrinador_thumb.jpg", 
-							"Miniatura Tropa de Elite", 
-							"24 de Janeiro de 2077", 
-							"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati tempora suscipit asperiores vero? Qui dolores repellat voluptatum vero ad voluptatibus tempora est, nisi inventore facere quo debitis praesentium cum non?"
-					),
-						true
-					);
+				<?php
+				include_once "./components/Abas/index.php";
 
-					echo Abas(
-						"AbaLancamentos",
-						AbasItem(
-							"./images/carandiru_thumb.jpg", 
-							"Miniatura Tropa de Elite", 
-							"24 de Janeiro de 2077", 
-							"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati tempora suscipit asperiores vero? Qui dolores repellat voluptatum vero ad voluptatibus tempora est, nisi inventore facere quo debitis praesentium cum non?"
-						),
-						AbasItem(
-							"./images/tropa_de_elite_thumb.jpg", 
-							"Miniatura Tropa de Elite", 
-							"24 de Janeiro de 2077", 
-							"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati tempora suscipit asperiores vero? Qui dolores repellat voluptatum vero ad voluptatibus tempora est, nisi inventore facere quo debitis praesentium cum non?"
-						),
-						AbasItem(
-							"./images/doutrinador_thumb.jpg", 
-							"Miniatura Tropa de Elite", 
-							"24 de Janeiro de 2077", 
-							"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati tempora suscipit asperiores vero? Qui dolores repellat voluptatum vero ad voluptatibus tempora est, nisi inventore facere quo debitis praesentium cum non?"
+				$json = file_get_contents('./database/data.json');
+				$filmes = json_decode($json);
+
+				echo Abas(
+					"AbaNoticias",
+					AbasItem(
+						$filmes->filmes[0]->thumb,
+						$filmes->filmes[0]->pagina->titulo,
+						$filmes->filmes[0]->data,
+						$filmes->filmes[0]->descricao
 					),
-						false
-					);
-					?>
-			</div>
+					AbasItem(
+						$filmes->filmes[1]->thumb,
+						$filmes->filmes[1]->pagina->titulo,
+						$filmes->filmes[1]->data,
+						$filmes->filmes[1]->descricao
+					),
+					AbasItem(
+						$filmes->filmes[4]->thumb,
+						$filmes->filmes[4]->pagina->titulo,
+						$filmes->filmes[4]->data,
+						$filmes->filmes[4]->descricao
+					),
+					true
+				);
+
+				echo Abas(
+					"AbaLancamentos",
+					AbasItem(
+						$filmes->filmes[4]->thumb,
+						$filmes->filmes[4]->pagina->titulo,
+						$filmes->filmes[4]->data,
+						$filmes->filmes[4]->descricao
+					),
+					AbasItem(
+						$filmes->filmes[1]->thumb,
+						$filmes->filmes[1]->pagina->titulo,
+						$filmes->filmes[1]->data,
+						$filmes->filmes[1]->descricao
+					),
+					AbasItem(
+						$filmes->filmes[0]->thumb,
+						$filmes->filmes[0]->pagina->titulo,
+						$filmes->filmes[0]->data,
+						$filmes->filmes[0]->descricao
+					),
+					false
+				);
+				?>
+			</article>
 
 			<?php
 			include_once "./components/EmBreve/index.php";
 			echo EmBreve("-3.8rem");
 			?>
 
-		</div>
-		<div class="row trailers-content">
-			<div class="col-sm-12">
-				<h2>TRAILERS</h2>
-				<div class="row">
-					<div class="col-sm-6">
-						<iframe width="100%" height="315" src="https://www.youtube.com/embed/uZBiNJQxtGw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
+		</section>
+		<section class="row trailers-content">
 
-					<div class="col-sm-6">
+			<h2>TRAILERS</h2>
+			<section class="row">
+				<article class="col-sm-6">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/uZBiNJQxtGw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</article>
 
-						<?php
-						include_once "./components/TrailerItem/index.php";
-						echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+				<aside class="col-sm-6">
+
+					<?php
+					include_once "./components/TrailerItem/index.php";
+					echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
 							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
 							error harum delectus, culpa quis!");
-						echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+					echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
 							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
 							error harum delectus, culpa quis!");
-						echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+					echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
 							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
 							error harum delectus, culpa quis!");
-						?>
+					?>
 
-					</div>
-				</div>
-			</div>
-		</div>
+				</aside>
+			</section>
+		</section>
 
 		<?php
 		include_once "./components/Noticias/index.php";
 		echo Noticias();
 		?>
 
-	</div>
+	</section>
 
 </main>
 

@@ -8,13 +8,13 @@ echo Navbar("../../", "Drama");
 </script>
 
 <main>
-	<div class="container">
+	<section class="container">
 		<h1>Drama</h1>
 		<?php
 		include_once "../../components/Noticias/index.php";
 		echo Noticias();
 		?>
-	</div>
+	</section>
 
 </main>
 

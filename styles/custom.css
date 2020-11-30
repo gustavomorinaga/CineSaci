@@ -13,6 +13,10 @@
 	transition: all 0.3s;
 }
 
+a {
+	cursor: pointer;
+}
+
 body {
 	background-color: #c4c4c4;
 }
@@ -108,6 +112,8 @@ main {
 main .container {
 	margin: auto auto 1rem !important;
 	padding: 0 !important;
+
+	color: #000;
 }
 
 main .container h1 {
@@ -185,6 +191,7 @@ main .main-content .nav-pills .nav-item .nav-link.active::after {
 
 main .news {
 	border-right: solid 1px #000;
+	color: #000;
 }
 
 main .news h2 {
@@ -374,6 +381,26 @@ main .about-content .nav-pills .nav-link,
 	border-radius: 0;
 }
 
+main .about-content .nav-pills .nav-link:not(.active):hover {
+	background-color: #292929;
+}
+
+main .about-content .tab-content .accordion ol {
+	list-style-position: inside;
+}
+
+main .about-content .tab-content .accordion ol li {
+	list-style: decimal;
+}
+
+main .about-content .tab-content .accordion .card article ol li {
+	list-style: upper-roman;
+}
+
+main .about-content .tab-content .accordion ul li {
+	list-style: disc;
+}
+
 main .about-content .btn-link {
 	color: #000000;
 	text-decoration: none;
@@ -417,6 +444,15 @@ main .about-content .img-aluno {
 main .about-content .img-aluno .img {
 	width: 75%;
 	border-radius: 50%;
+}
+
+.tab-icon {
+	margin-right: 0.5rem;
+}
+
+main .about-content .nav-pills .nav-link {
+	display: flex;
+	align-items: center;
 }
 
 /* FOOTER */
@@ -505,7 +541,7 @@ form select {
 	padding-left: 0.6rem;
 }
 
-footer div.container {
+footer section.container {
 	padding: 2rem;
 }
 

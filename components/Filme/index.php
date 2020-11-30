@@ -6,11 +6,11 @@ function Filme(string $categoria, string $titulo, string $data, string $autor, s
   $path = '../../../images/';
 
   return "
-    <div class='container'>
+    <section class='container'>
       <h1>${categoria}</h1>
-      <div class='row content'>
+      <section class='row content'>
 
-        <div class='col-sm-9 movie-content'>
+        <article class='col-sm-9 movie-content'>
           <h2>${titulo}</h2>
           <p class='movie-description'>${data} <span>Escrito por ${autor}</span></p>
           <img class='cover-movie' src='${path}${banner}' />
@@ -28,12 +28,12 @@ function Filme(string $categoria, string $titulo, string $data, string $autor, s
           <p><strong>Lançamento: </strong>${lancamento}</p>
           <p><strong>Plataforma: </strong>${plataforma}</p>
           <p><strong>Diretor: </strong>${diretor}</p>
-
-      </div>
+          
+      </article>
 
       " . EmBreve() . "
 
-    </div>
+    </section>
   ";
 }
 

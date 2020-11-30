@@ -26,7 +26,7 @@ function Navbar(string $path, string $titlePage): String {
             aria-controls='collapsibleNavId' aria-expanded='false' aria-label='Toggle navigation'>
             <span class='navbar-toggler-icon'></span>
           </button>
-          <div class='collapse navbar-collapse justify-content-end' id='collapsibleNavId'>
+          <section class='collapse navbar-collapse justify-content-end' id='collapsibleNavId'>
             <ul class='navbar-nav mt-2 mt-lg-0'>
               <li class='nav-item'>
                 <a class='nav-link' href='${path}index.php'>HOME</span></a>
@@ -50,7 +50,7 @@ function Navbar(string $path, string $titlePage): String {
                 <a class='nav-link' href='${path}pages/normas.php'>NORMAS</a>
               </li>
             </ul>
-          </div>
+          </section>
         </nav>
       </header>
   ";
