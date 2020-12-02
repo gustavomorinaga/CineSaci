@@ -14,7 +14,7 @@ echo Navbar("../", "Contato");
 		<section class="row content">
 			<h2>Fale Conosco</h2>
 			<article class="col-sm-12">
-				<img class="logo" src="https://hyperflix.vercel.app/static/media/Logo.632cc64b.png" alt="Logo do Cine Saci" />
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9879122700877!2d-47.13623224869923!3d-23.532937166354902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0d54817a1725%3A0x3dcff522a27b9b96!2sFaculdade%20de%20Tecnologia%20de%20S%C3%A3o%20Roque!5e0!3m2!1spt-BR!2sbr!4v1606785086870!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				<p><strong>Endereço:</strong></p>
 				<p>Rua Piracicabana, N° 69, Debaixo da ponte - Angola</p>
 

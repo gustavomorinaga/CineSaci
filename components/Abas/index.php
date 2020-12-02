@@ -27,9 +27,9 @@ function AbasItem(string $img, string $alt, string $data, string $descricao): St
         </figure>
         <aside class='news-description'>
           <section class='new'>Novo</section>
-          <caption>
+          <section class='new-title'> 
             ${data}
-          </caption>
+          </section>
         </aside>
         <article class='card-body'>
           <p class='card-text'>${descricao}</p>

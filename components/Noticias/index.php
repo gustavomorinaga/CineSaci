@@ -1,7 +1,10 @@
 <?php
 
-function Noticias(): String
+function Noticias(string $path): String
 {
+
+  $path = $path . "/images/";
+
   return "
     <section class='row'>
       <section class='row content'>
@@ -11,7 +14,7 @@ function Noticias(): String
           </section>
           " . $noticiaItem =
     Noticia(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}o-homem-do-futuro.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -23,7 +26,7 @@ function Noticias(): String
 
               " . $noticiaItem =
     Noticia(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}de-pernas-pro-ar.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -35,7 +38,7 @@ function Noticias(): String
 
     " . $noticiaItem =
     Noticia(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}faroeste-caboclo.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -52,7 +55,7 @@ function Noticias(): String
 
         " . $topFilme =
     TopFilme(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}lisbela-e-o-prisioneiro.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -61,7 +64,7 @@ function Noticias(): String
 
             " . $topFilme =
     TopFilme(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}o-som-ao-redor.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -70,7 +73,7 @@ function Noticias(): String
 
     " . $topFilme =
     TopFilme(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}que-horas-ela-volta.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -79,7 +82,7 @@ function Noticias(): String
 
       " . $topFilme =
     TopFilme(
-      "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png",
+      "${path}faroeste-caboclo.jpg",
       "Alguma coisa",
       "FILMES",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -91,15 +94,16 @@ function Noticias(): String
   ";
 }
 
-function Noticia(string $img, string $alt, string $titulo, string $descricao, string $data): String {
+function Noticia(string $img, string $alt, string $titulo, string $descricao, string $data): String
+{
   return "
     <section class='col-sm-12'>
       <section class='row'>
-        <aside class='col-sm-2'>
+        <aside class='col-sm-4'>
           <img class='logo' src='${img}' alt='${alt}' />
         </aside>
 
-        <article class='col-sm-10'>
+        <article class='col-sm-8'>
           <h3>${titulo}</h3>
 
           <p>
@@ -115,7 +119,8 @@ function Noticia(string $img, string $alt, string $titulo, string $descricao, st
   ";
 }
 
-function TopFilme(string $img,string $alt,string $titulo,string $descricao,string $data): String {
+function TopFilme(string $img, string $alt, string $titulo, string $descricao, string $data): String
+{
   return "
     <section class='row'>
       <aside class='col-sm-3'>

@@ -98,13 +98,13 @@ echo Navbar("./", "Home");
 
 					<?php
 					include_once "./components/TrailerItem/index.php";
-					echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+					echo TrailerItem("./images/ate-que-a-sorte-nos-separe.jpg", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
 							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
 							error harum delectus, culpa quis!");
-					echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+					echo TrailerItem("./images/touro-ferdinando.jpg", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
 							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
 							error harum delectus, culpa quis!");
-					echo TrailerItem("https://hyperflix.vercel.app/static/media/Logo.632cc64b.png", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
+					echo TrailerItem("./images/sos-mulheres-ao-mar.jpg", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
 							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
 							error harum delectus, culpa quis!");
 					?>
@@ -115,7 +115,7 @@ echo Navbar("./", "Home");
 
 		<?php
 		include_once "./components/Noticias/index.php";
-		echo Noticias();
+		echo Noticias('./');
 		?>
 
 	</section>

@@ -12,7 +12,7 @@ echo Navbar("../../", "Drama");
 		<h1>Drama</h1>
 		<?php
 		include_once "../../components/Noticias/index.php";
-		echo Noticias();
+		echo Noticias('../../');
 		?>
 	</section>
 

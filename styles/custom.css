@@ -24,7 +24,7 @@ body {
 section.main-banner {
 	height: 75vh;
 	position: relative;
-	background-image: url('../images/banner.png');
+	background-image: url('../images/banner.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -51,7 +51,7 @@ section.main-banner .banner-text h2 {
 	margin: initial;
 
 	text-transform: uppercase;
-	color: #FFF;
+	color: #fff;
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.725);
 }
 
@@ -59,7 +59,7 @@ section.main-banner .banner-text h1 {
 	font-weight: 700;
 	font-size: 5rem;
 
-	border-bottom: 2px solid #FFF;
+	border-bottom: 2px solid #fff;
 }
 
 section.main-banner .banner-text h2 {
@@ -142,7 +142,7 @@ main .main-content figure {
 	margin: 0;
 }
 
-main .main-content figure img{
+main .main-content figure img {
 	width: 100%;
 	height: 100%;
 }
@@ -329,6 +329,18 @@ main .soon-content .row .soon {
 	border: solid 1px #fff;
 }
 
+.soon-content img {
+	min-width: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	filter: invert(1);
+}
+
+.contact-content section h2 {
+	padding: 0 15px;
+}
+
 main .trailers-content {
 	background: #000;
 
@@ -356,6 +368,10 @@ main .trailers-content p {
 
 main .contact-content .form-group label {
 	font-weight: 700;
+}
+
+.contact-content article iframe {
+	width: 100%;
 }
 
 main .contact-content .form-check label {
@@ -567,4 +583,192 @@ footer ul li a {
 footer ul li a:hover {
 	text-decoration: none;
 	color: #fff;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+	/* ====== HOME ====== */
+
+	.card {
+		margin-top: 20px;
+	}
+
+	.card-body {
+		padding: 1.25rem 0;
+	}
+
+	main .main-content .nav-pills {
+		z-index: 5;
+	}
+
+	main .main-content .nav-pills .nav-item .nav-link {
+		font-size: 1.5rem;
+	}
+
+	.soon-content h2 {
+		font-size: 1.25rem;
+	}
+
+	.soon-content article h3 {
+		font-size: 1.15rem;
+	}
+
+	.soon-content article p {
+		font-size: 0.85rem;
+	}
+
+	section.main-banner {
+		top: -50px;
+	}
+
+	section.main-banner .banner-text h1 {
+		font-weight: 700;
+		font-size: 3.5rem;
+		border-bottom: 2px solid #fff;
+	}
+
+	main .container img {
+		min-width: 30px;
+	}
+
+	main .container .news-description .new,
+	main .container .news-description .new-title {
+		font-size: 0.75rem;
+	}
+
+	main .trailers-content h2,
+	main .trailers-content h3 {
+		font-size: 1.25rem;
+	}
+	main .news h2 {
+		font-size: 1.5rem !important;
+	}
+
+	.soon-content img {
+		min-width: 30px;
+		align-items: center;
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	/* ====== QUEM SOMOS ====== */
+	main .about-content .img-aluno .img {
+		width: 100%;
+		border-radius: 50%;
+	}
+}
+
+@media (max-width: 575px) {
+	/* ====== HOME ====== */
+
+	main {
+		padding-top: 9.7vh;
+	}
+
+	section.main-banner {
+		top: -70px;
+		margin: 50px 0;
+	}
+
+	main .main-content .nav-pills .nav-item .nav-link {
+		margin-right: 0 !important;
+	}
+
+	main .container.main-content {
+		padding-right: 15px !important;
+    padding-left: 15px !important;
+	}
+
+	main .container .tab-content {
+		padding-top: 3rem;
+	}
+
+	main .main-content .nav-pills .nav-item .nav-link.active::after {
+		display: none;
+	}
+
+	section.main-banner .banner-text h1 {
+		font-weight: 700;
+		font-size: 2.5rem;
+		border-bottom: 2px solid #fff;
+	}
+
+	.soon-content {
+		display: none;
+	}
+
+	.card {
+		margin-top: 20px;
+	}
+
+	.card-body {
+		padding: 1.25rem 0;
+	}
+
+	main .main-content .nav-pills {
+		z-index: 5;
+	}
+
+	.nav-pills li {
+		width: 100%;
+	}
+
+	.nav-pills li a {
+		text-align: center;
+	}
+
+	main .main-content figure {
+		height: 300px;
+	}
+	main .main-content .nav-pills {
+		width: 100.5%;
+	}
+	main .main-content .nav-pills .nav-item .nav-link {
+		font-size: 1.5rem;
+	}
+
+	/* ====== CATEGORIA ====== */
+	main .news h2 {
+		width: 100% !important;
+	}
+
+	main .news {
+		border: initial;
+	}
+
+	.news section img,
+	.top-movies section img {
+		margin: 15px 0;
+	}
+
+	main .container h1 {
+		padding: 20px;
+	}
+
+	/* ====== QUEM SOMOS ====== */
+	.about-content article h2 {
+		font-size: 1.5rem;
+	}
+
+	.about-content article h3 {
+		font-size: 1.2rem;
+	}
+
+	/* ====== CONTATO ====== */
+
+	.contact-content article img {
+		margin: 15px 0;
+	}
+
+	.contact-content section h2 {
+		padding: 0 15px;
+	}
+
+	/* ====== FILME ====== */
+
+	.content .movie-content h2 {
+		font-size: 1.5rem;
+	}
+	.content .movie-content h3 {
+		font-size: 1.2rem;
+	}
 }

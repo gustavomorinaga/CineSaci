@@ -4,11 +4,11 @@ function EmBreve(string $margin = "0rem"): String {
   return "
     <aside class='col-sm-3 soon-content' style='margin-top: ${margin};'>
       <h2>Em breve</h2>
-      " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de janeiro de 2077') . "
-      " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de fevereiro de 2077') . "
-      " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de março de 2077') . "
-      " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de abril de 2077') . "
-      " . $breveItem = EmBreveItem('https://hyperflix.vercel.app/static/media/Logo.632cc64b.png', 'Filme', '27 de maio de 2077') . "
+      " . $breveItem = EmBreveItem('./images/number1.png', 'Filme', '27 de janeiro de 2077') . "
+      " . $breveItem = EmBreveItem('./images/number2.png', 'Filme', '27 de fevereiro de 2077') . "
+      " . $breveItem = EmBreveItem('./images/number3.png', 'Filme', '27 de março de 2077') . "
+      " . $breveItem = EmBreveItem('./images/number4.png', 'Filme', '27 de abril de 2077') . "
+      " . $breveItem = EmBreveItem('./images/number5.png', 'Filme', '27 de maio de 2077') . "
       <section class='row'>
         <article class='more col-sm-12'>
           <h3>VER MAIS...</h3>
