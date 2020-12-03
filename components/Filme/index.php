@@ -3,7 +3,7 @@
 include_once '../../../components/EmBreve/index.php';
 
 function Filme(string $categoria, string $titulo, string $data, string $autor, string $banner, string $sinopse, $elenco, string $lancamento, $plataforma, string $diretor): String {
-  $path = '../../../images/';
+  $path = '../../../';
 
   return "
     <section class='container'>
@@ -13,7 +13,7 @@ function Filme(string $categoria, string $titulo, string $data, string $autor, s
         <article class='col-sm-9 movie-content'>
           <h2>${titulo}</h2>
           <p class='movie-description'>${data} <span>Escrito por ${autor}</span></p>
-          <img class='cover-movie' src='${path}${banner}' />
+          <img class='cover-movie' src='${path}images/${banner}' />
           <h3>Sinopse</h3>
           <p>${sinopse}</p>
           <h3>Elenco</h3>
@@ -31,7 +31,7 @@ function Filme(string $categoria, string $titulo, string $data, string $autor, s
           
       </article>
 
-      " . EmBreve() . "
+      " . EmBreve($path) . "
 
     </section>
   ";

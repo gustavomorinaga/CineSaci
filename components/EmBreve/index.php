@@ -1,14 +1,17 @@
 <?php
 
-function EmBreve(string $margin = "0rem"): String {
+function EmBreve(string $path, string $margin = "0rem"): String {
+  $json = file_get_contents("${path}database/data.json");
+  $filmes = json_decode($json);
+  
   return "
     <aside class='col-sm-3 soon-content' style='margin-top: ${margin};'>
       <h2>Em breve</h2>
-      " . $breveItem = EmBreveItem('./images/number1.png', 'Filme', '27 de janeiro de 2077') . "
-      " . $breveItem = EmBreveItem('./images/number2.png', 'Filme', '27 de fevereiro de 2077') . "
-      " . $breveItem = EmBreveItem('./images/number3.png', 'Filme', '27 de março de 2077') . "
-      " . $breveItem = EmBreveItem('./images/number4.png', 'Filme', '27 de abril de 2077') . "
-      " . $breveItem = EmBreveItem('./images/number5.png', 'Filme', '27 de maio de 2077') . "
+      " . $breveItem = EmBreveItem("${path}images/number1.png", $filmes->filmes[0]->pagina->titulo, $filmes->filmes[0]->data) . "
+      " . $breveItem = EmBreveItem("${path}images/number2.png", $filmes->filmes[1]->pagina->titulo, $filmes->filmes[1]->data) . "
+      " . $breveItem = EmBreveItem("${path}images/number3.png", $filmes->filmes[2]->pagina->titulo, $filmes->filmes[2]->data) . "
+      " . $breveItem = EmBreveItem("${path}images/number4.png", $filmes->filmes[3]->pagina->titulo, $filmes->filmes[3]->data) . "
+      " . $breveItem = EmBreveItem("${path}images/number5.png", $filmes->filmes[4]->pagina->titulo, $filmes->filmes[4]->data) . "
       <section class='row'>
         <article class='more col-sm-12'>
           <h3>VER MAIS...</h3>
@@ -31,5 +34,3 @@ function EmBreveItem(string $img, string $titulo, string $data): String {
     </section>
   ";
 }
-
-?>

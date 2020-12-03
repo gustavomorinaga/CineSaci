@@ -1,6 +1,7 @@
 <?php
 
-function Abas(string $aba, string $abasItem1, string $abasItem2, string $abasItem3, bool $active): String {
+function Abas(string $aba, string $abasItem1, string $abasItem2, string $abasItem3, bool $active): String
+{
   if ($active === true) {
     $activeClass = "active";
   } else {
@@ -18,9 +19,11 @@ function Abas(string $aba, string $abasItem1, string $abasItem2, string $abasIte
   ";
 }
 
-function AbasItem(string $img, string $alt, string $data, string $descricao): String {
+function AbasItem(string $img, string $alt, string $data, string $descricao, string $link): String
+{
   return "
     <section class='col-sm-4'>
+      <a href='${link}'>
       <section class='card'>
         <figure class='figure'>
           <img src='./images/${img}' alt='Miniatura de ${alt}' class='figure-img img-fluid' />
@@ -35,6 +38,7 @@ function AbasItem(string $img, string $alt, string $data, string $descricao): St
           <p class='card-text'>${descricao}</p>
         </article>
       </section>
+      </a>
     </section>
   ";
 }

@@ -1,7 +1,7 @@
 <?php
 
 function Navbar(string $path, string $titlePage): String {
-  $logo = "https://hyperflix.vercel.app/static/media/Logo.632cc64b.png";
+  $logo = "${path}images/logo.png";
 
   return "
     <!DOCTYPE html>

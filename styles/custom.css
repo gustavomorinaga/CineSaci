@@ -15,6 +15,11 @@
 
 a {
 	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 body {
@@ -80,7 +85,7 @@ header {
 	left: 0;
 	right: 0;
 
-	z-index: 15;
+	z-index: 100;
 }
 
 header nav {
@@ -89,6 +94,7 @@ header nav {
 
 header nav img.logo {
 	max-width: 168px;
+	width: 100px;
 }
 
 header .navbar {
@@ -154,6 +160,10 @@ main .main-content .nav-pills {
 	z-index: 30;
 
 	margin-left: -15px;
+}
+
+main .main-content .tab-pane a {
+	color: #FFF !important;
 }
 
 main .main-content .nav-pills .nav-item .nav-link {
@@ -313,7 +323,6 @@ main .soon-content h2,
 main .soon-content h3 {
 	text-transform: uppercase;
 	font-weight: 700;
-	letter-spacing: 1px;
 }
 
 main .soon-content h3 {

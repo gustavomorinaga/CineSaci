@@ -17,10 +17,11 @@ function Noticias(string $path): String
       "${path}o-homem-do-futuro.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur unde quis eius soluta aspernatur.
-              Quas cupiditate vitae rem quis! Facere quos quidem hic. Iure
-              harum eligendi, consequuntur eveniet cum deserunt!",
+      "Zero é um cientista ridicularizado cuja última invenção 
+            o levou ao passado, lhe dando a chance de refazer sua vida. 
+            De volta à época de faculdade, ele reencontra Helena, sua paixão, 
+            mas acaba interferindo em acontecimentos do futuro. Agora, 
+            Zero precisa consertar o futuro sem perder Helena de novo",
       "24 de Janeiro de 2077"
     ) . "
 
@@ -29,10 +30,9 @@ function Noticias(string $path): String
       "${path}de-pernas-pro-ar.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur unde quis eius soluta aspernatur.
-                Quas cupiditate vitae rem quis! Facere quos quidem hic. Iure
-                harum eligendi, consequuntur eveniet cum deserunt!",
+      "Após ser abandonada pelo seu marido João e demitida de seu emprego, 
+            Alice fecha uma parceria com Marcela, sua vizinha e dona de uma loja 
+            de artigos eróticos.",
       "24 de Fevereiro de 2077"
     ) . "
 
@@ -41,10 +41,9 @@ function Noticias(string $path): String
       "${path}faroeste-caboclo.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Consequuntur unde quis eius soluta aspernatur.
-      Quas cupiditate vitae rem quis! Facere quos quidem hic. Iure
-      harum eligendi, consequuntur eveniet cum deserunt!",
+      "Baseado na música escrita por Renato Russo, o longa 
+            acompanha a história de João do Santo Cristo, que deixa Salvador,
+            sua cidade natal, e se muda para a Brasília em busca de uma vida melhor.",
       "24 de Março de 2077"
     ) . "
 
@@ -58,7 +57,10 @@ function Noticias(string $path): String
       "${path}lisbela-e-o-prisioneiro.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "A jovem Lisbela adora ir ao cinema e vive sonhando 
+            com os galãs de Hollywood dos filmes que assiste. 
+            Leléu é um malandro conquistador, que em meio a uma de 
+            suas muitas aventuras chega à cidade da moça",
       "24 de Janeiro de 2077"
     ) . "
 
@@ -67,7 +69,10 @@ function Noticias(string $path): String
       "${path}o-som-ao-redor.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "A vida dos residentes de uma rua de 
+            classe média de Recife toma um rumo 
+            inesperado quando uma empresa de segurança particular 
+            é contratada para trazer paz aos moradores.",
       "24 de Fevereiro de 2077"
     ) . "
 
@@ -76,7 +81,10 @@ function Noticias(string $path): String
       "${path}que-horas-ela-volta.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "A pernambucana Val se mudou para São Paulo 
+            com o intuito de proporcionar melhores condições 
+            de vida para a filha, Jéssica. Anos depois, a garota lhe telefona, 
+            dizendo que quer ir para a cidade prestar vestibular.",
       "24 de Março de 2077"
     ) . "
 
@@ -85,7 +93,9 @@ function Noticias(string $path): String
       "${path}faroeste-caboclo.jpg",
       "Alguma coisa",
       "FILMES",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Baseado na música escrita por Renato Russo, o longa 
+            acompanha a história de João do Santo Cristo, que deixa Salvador,
+            sua cidade natal, e se muda para a Brasília em busca de uma vida melhor.",
       "24 de Abril de 2077"
     ) . "
         </aside>

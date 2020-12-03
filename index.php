@@ -10,8 +10,8 @@ echo Navbar("./", "Home");
 <main>
 	<section class="main-banner">
 		<span class="banner-text">
-			<h1>Olá mundo!</h1>
-			<h2>Breve descrição</h2>
+			<h1>CineSaci</h1>
+			<h2>O Portal dos Filmes Brasileiros</h2>
 		</span>
 	</section>
 
@@ -38,19 +38,22 @@ echo Navbar("./", "Home");
 						$filmes->filmes[0]->thumb,
 						$filmes->filmes[0]->pagina->titulo,
 						$filmes->filmes[0]->data,
-						$filmes->filmes[0]->descricao
+						$filmes->filmes[0]->descricao,
+						'./pages/categoria/acao/doutrinador.php'
 					),
 					AbasItem(
 						$filmes->filmes[1]->thumb,
 						$filmes->filmes[1]->pagina->titulo,
 						$filmes->filmes[1]->data,
-						$filmes->filmes[1]->descricao
+						$filmes->filmes[1]->descricao,
+						'./pages/categoria/acao/tropaDeElite.php'
 					),
 					AbasItem(
 						$filmes->filmes[4]->thumb,
 						$filmes->filmes[4]->pagina->titulo,
 						$filmes->filmes[4]->data,
-						$filmes->filmes[4]->descricao
+						$filmes->filmes[4]->descricao,
+						'./pages/categoria/drama/carandiru.php'
 					),
 					true
 				);
@@ -58,22 +61,25 @@ echo Navbar("./", "Home");
 				echo Abas(
 					"AbaLancamentos",
 					AbasItem(
-						$filmes->filmes[4]->thumb,
-						$filmes->filmes[4]->pagina->titulo,
-						$filmes->filmes[4]->data,
-						$filmes->filmes[4]->descricao
+						$filmes->filmes[2]->thumb,
+						$filmes->filmes[2]->pagina->titulo,
+						$filmes->filmes[2]->data,
+						$filmes->filmes[2]->descricao,
+						'./pages/categoria/comedia/autoDaCompadecida.php'
 					),
 					AbasItem(
-						$filmes->filmes[1]->thumb,
-						$filmes->filmes[1]->pagina->titulo,
-						$filmes->filmes[1]->data,
-						$filmes->filmes[1]->descricao
+						$filmes->filmes[5]->thumb,
+						$filmes->filmes[5]->pagina->titulo,
+						$filmes->filmes[5]->data,
+						$filmes->filmes[5]->descricao,
+						'./pages/categoria/drama/cidadeDeDeus.php'
 					),
 					AbasItem(
-						$filmes->filmes[0]->thumb,
-						$filmes->filmes[0]->pagina->titulo,
-						$filmes->filmes[0]->data,
-						$filmes->filmes[0]->descricao
+						$filmes->filmes[3]->thumb,
+						$filmes->filmes[3]->pagina->titulo,
+						$filmes->filmes[3]->data,
+						$filmes->filmes[3]->descricao,
+						'./pages/categoria/comedia/cro.php'
 					),
 					false
 				);
@@ -82,7 +88,7 @@ echo Navbar("./", "Home");
 
 			<?php
 			include_once "./components/EmBreve/index.php";
-			echo EmBreve("-3.8rem");
+			echo EmBreve('./', "-3.8rem");
 			?>
 
 		</section>
@@ -98,15 +104,9 @@ echo Navbar("./", "Home");
 
 					<?php
 					include_once "./components/TrailerItem/index.php";
-					echo TrailerItem("./images/ate-que-a-sorte-nos-separe.jpg", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
-							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
-							error harum delectus, culpa quis!");
-					echo TrailerItem("./images/touro-ferdinando.jpg", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
-							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
-							error harum delectus, culpa quis!");
-					echo TrailerItem("./images/sos-mulheres-ao-mar.jpg", "Alguma coisa", "Filme", "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam sit ducimus exercitationem
-							accusamus velit laborum veniam corporis laboriosam fuga dicta consectetur fugit voluptatibus qui
-							error harum delectus, culpa quis!");
+					echo TrailerItem("./images/ate-que-a-sorte-nos-separe.jpg", "Alguma coisa", "Filme", "Tino é um pai de família que tem sua rotina transformada ao ganhar na loteria. Em dez anos, o fanfarrão e sua mulher Jane gastam todo o dinheiro com uma vida de ostentação.");
+					echo TrailerItem("./images/touro-ferdinando.jpg", "Alguma coisa", "Filme", "Ferdinando é um touro com um temperamento calmo e tranquilo, que prefere sentar-se embaixo de uma árvore e relaxar ao invés de correr por aí bufando e batendo cabeça com os outros.");
+					echo TrailerItem("./images/sos-mulheres-ao-mar.jpg", "Alguma coisa", "Filme", "S.O.S. Mulheres Ao Mar acompanha Adriana (Giovanna Antonelli) que não está em um bom momento na vida. Ela não consegue que alguma editora publique seus livros e, para ganhar a vida, legenda filmes pornôs.");
 					?>
 
 				</aside>
