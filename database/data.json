@@ -204,7 +204,7 @@
 			"nome": "Gustavo Matheus Morinaga Cardoso",
 			"cargo": "Desenvolvedor Full-Stack e Administrador do Grupo",
 			"ra": "2650832013015",
-			"area": "Todas as páginas",
+			"area": "<a href='../index.php'>Página Inicial</a>, <a href='./quemSomos.php'>Quem Somos</a>, <a href='./contato.php'>Contato</a> e <a href='./categoria/acao/doutrinador.php'>O Doutrinador</a>",
 			"bio": "Tenho 20 anos, moro em São Roque – SP, meu primeiro contato com programação foi através das aulas de Técnico de Informática da ETEC de São Roque, usando C#, Java e PHP. Atualmente cursa no 2º Semestre em Sistemas para Internet na FATEC de São Roque em paralelo com o Bootcamp de Desenvolvedor Full-Stack no Instituto de Gestão e Tecnologia da Informação (IGTI) e Curso de Web Moderno com JavaScript na Cod3r.",
 			"avatar": "https://avatars2.githubusercontent.com/u/47375774?s=460&u=ef52a254372ddcc6c7b17dfce63a087bbad14e0e&v=4"
 		},
@@ -212,7 +212,7 @@
 			"nome": "Bruno Godinho de Moraes",
 			"cargo": "Desenvolvedor Front-End",
 			"ra": "2650832013025",
-			"area": "Todas as páginas",
+			"area": "<a href='../index.php'>Página Inicial</a>, <a href='./categoria/acao.php'>Ação</a>, <a href='./categoria/comedia.php'>Comédia</a>, <a href='./categoria/drama.php'>Drama</a> e <a href='./categoria/drama/carandiru.php'>Carandiru</a>",
 			"bio": "Tenho 25 anos, moro em Mairinque-SP,  meu primeiro contato com programação foi aos 23, através das aulas da ETEC São Roque, utilizando as linguagens de programação C#, Java e PHP. Técnico de informática formado pela ETEC São Roque, atualmente estudando Sistemas para Internet na FATEC São Roque e em paralelo realizando um BootCamp de desenvolvedor Front-End pelo Instituto de Gestão e Tecnologia da Informação (IGTI).",
 			"avatar": "https://avatars0.githubusercontent.com/u/54083619?s=460&v=4"
 		},
@@ -220,7 +220,7 @@
 			"nome": "Gustavo Silva Gomes de Souza",
 			"cargo": "Desenvolvedor Back-End",
 			"ra": "2650832013018",
-			"area": "Página Inicial, Filmes, Quem Somos, Contato e Documentação",
+			"area": "<a href='../index.php'>Página Inicial</a>, <a href='./categoria/acao/tropaDeElite.php'>Tropa de Elite</a>, <a href='./quemSomos.php'>Quem Somos</a>, <a href='./contato.php'>Contato</a> e <a href='./normas.php'>Normas</a>",
 			"bio": "Tenho 18 anos, moro em Araçariguama-SP,  meu primeiro contato com programação foi aos 12 anos, através de aulas de robótica, utilizando a linguagem de programação Scratch. Desenvolvedor Java Júnior formado pela Generation Brazil, instituição que atua profissionalizando pessoas de maneira gratuita em 14 países.  Atualmente estudante do segundo 2° semestre de Sistemas para Internet da Fatec-São Roque",
 			"avatar": "https://avatars1.githubusercontent.com/u/72390868?s=460&u=9ec7c23a483ceb8275a736b3a2f500d6c6d0aca3&v=4"
 		},
@@ -228,7 +228,7 @@
 			"nome": "Matheus Felipe Magalhães de Abreu",
 			"cargo": "Designer Web",
 			"ra": "2650832013006",
-			"area": "Página de O Auto da Compadecida",
+			"area": "<a href='./categoria/comedia/autoDaCompadecida.php'>O Auto da Compadecida</a>",
 			"bio": "Tenho 19 anos, moro em São Roque, sempre gostei de computador, e de jogos, me interessei por programação justamente pela programação de games, a maioria dos meus trabalhos de programação atuais são da FATEC, mas estou adentrando mais no assunto, atualmente nao trabalho na área e estou no segundo semestre da FATEC em Sistemas para Internet.",
 			"avatar": "https://avatars3.githubusercontent.com/u/67381800?s=460&v=4"
 		},
@@ -236,7 +236,7 @@
 			"nome": "Pedro Henrique Ribeiro do Nascimento",
 			"cargo": "Documentação",
 			"ra": "2650832013021",
-			"area": "Página de O Crô – o Filme e documentação das Normas",
+			"area": "<a href='./categoria/comedia/cro.php'>O Crô – o Filme</a> e <a href='./normas.php'>Normas</a>",
 			"bio": "Tenho 18 anos, moro em são roque-SP, meu primeiro contato com a tecnologia foi aos 8 anos baixando Minecraft pirata. Técnico em lazer e recreação pela Etec são roque. Atualmente estudante do 2 semestre de Sistemas para internet da Fatec são roque.",
 			"avatar": "https://avatars2.githubusercontent.com/u/70548560?s=460&u=c0a4a78dbe8dfcbc37599f2fe46a49dfb5133002&v=4"
 		},
@@ -244,7 +244,7 @@
 			"nome": "Julio Loewenberg Passalacqua",
 			"cargo": "Documentação",
 			"ra": "2650831923006",
-			"area": "Página de Cidade de Deus e documentação das Normas",
+			"area": "<a href='./categoria/drama/cidadeDeDeus.php'>Cidade de Deus</a> e <a href='./normas.php'>Normas</a>",
 			"bio": "Tenho 39 anos. Moro em Mairinque. Gosto de praticar e assistir esportes.Possuo a  profissão de técnico em construção. Tenho perfil de Planejador busco aperfeiçoar técnicas de informatica no curso sistemas de internet da Fatec-SR",
 			"avatar": "../images/julio.jpeg"
 		}
